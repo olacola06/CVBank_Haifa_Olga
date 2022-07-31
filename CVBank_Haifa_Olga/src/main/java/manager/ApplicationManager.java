@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     String browser;
     EventFiringWebDriver wd;
+    LoginHelper login;
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
@@ -28,6 +29,11 @@ public class ApplicationManager {
 
         wd.register(new MyListener());
 
+        login = new LoginHelper(wd);
+
+    }
+    public LoginHelper login(){
+        return login;
     }
     public void stop(){
         wd.quit();

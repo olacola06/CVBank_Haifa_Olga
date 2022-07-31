@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T14:15:04" hostname="ARTEMKA" time="1.125">
+  <properties/>
+  <testcase name="loginPos" classname="tests.LoginTests" time="1.125"/>
+  <system-out><![CDATA[17:15:04 INFO  tests.TestBase - start to test method ->>loginPos
+17:15:04 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()='sign in ']
+17:15:04 INFO  manager.MyListener - element with locator->>By.xpath: //*[text()='sign in ']was found
+17:15:04 INFO  tests.TestBase - Login user with email:->>office@prisma-eo.co.il
+17:15:04 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:15:04 INFO  manager.MyListener - element with locator->>By.cssSelector: input#emailwas found
+17:15:05 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:15:05 INFO  manager.MyListener - element with locator->>By.cssSelector: input#passwordwas found
+17:15:05 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:15:05 INFO  manager.MyListener - element with locator->>By.cssSelector:  button[type='submit']was found
+17:15:05 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:15:05 INFO  manager.MyListener - element with locator->>By.xpath: //*[text()=' logout ']was found
+17:15:05 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:15:06 INFO  manager.MyListener - element with locator->>By.xpath: //*[text()=' logout ']was found
+17:15:06 INFO  tests.TestBase - end to test method ->>loginPos
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

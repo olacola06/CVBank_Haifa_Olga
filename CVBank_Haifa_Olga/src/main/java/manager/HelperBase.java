@@ -31,6 +31,12 @@ public class HelperBase {
         }
 
     }
+    public void signIn(){
+        wd.findElement(By.xpath("//*[text()='sign in ']")).click();
+    }
+    public void clickLogout(){
+        wd.findElement(By.xpath("//*[text()=' logout ']")).click();
+    }
     public void refresh(){
         wd.navigate().refresh();
     }
