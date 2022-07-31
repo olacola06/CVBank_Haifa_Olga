@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T05:54:25" hostname="ARTEMKA" time="0.0">
+  <properties/>
+  <testcase name="registartionPos" classname="tests.RegistrationTests" time="0.0"/>
+  <system-out><![CDATA[08:54:25 INFO  tests.TestBase - start to test method ->>registartionPos
+08:54:25 INFO  tests.TestBase - end to test method ->>registartionPos
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

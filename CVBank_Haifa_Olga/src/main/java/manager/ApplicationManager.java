@@ -26,6 +26,8 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://cv-bank-new.web.app/");
 
+        wd.register(new MyListener());
+
     }
     public void stop(){
         wd.quit();

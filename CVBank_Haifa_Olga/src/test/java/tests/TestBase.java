@@ -30,7 +30,7 @@ public class TestBase {
     public void start(){
         app.init();
     }
-    @AfterSuite
+    @AfterSuite(enabled = false)
     public void end(){
         app.stop();
     }
