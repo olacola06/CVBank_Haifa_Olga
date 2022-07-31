@@ -1,10 +1,14 @@
 package manager;
 
+import javafx.scene.control.Tab;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.sql.Array;
 import java.sql.Time;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
@@ -32,13 +36,13 @@ public class HelperBase {
 
     }
     public void signIn(){
-        wd.findElement(By.xpath("//*[text()='sign in ']")).click();
+        click(By.xpath("//*[text()='sign in ']"));
     }
     public void clickLogout(){
         wd.findElement(By.xpath("//*[text()=' logout ']")).click();
     }
-    public void refresh(){
-        wd.navigate().refresh();
-    }
+//    public void switchTabs(){
+//        ArrayList<Tab> arrayTabs = new ArrayList<>() wd.findElement("");
+//    }
 
 }
