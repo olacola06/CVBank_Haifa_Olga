@@ -10,7 +10,7 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void preCondition(){
-        app.login().signIn();
+        app.login().signInFirst();
     }
 
     @Test
@@ -25,7 +25,7 @@ public class LoginTests extends TestBase {
     public void loginWrongEmail(){
 
     }
-    @AfterMethod
+    @AfterMethod(enabled = true)
     public void postCondition(){
         app.login().clickLogout();
 

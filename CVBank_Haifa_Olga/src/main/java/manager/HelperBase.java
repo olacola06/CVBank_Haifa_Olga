@@ -35,14 +35,17 @@ public class HelperBase {
         }
 
     }
-    public void signIn(){
-        click(By.xpath("//*[text()='sign in ']"));
+    public void signInFirst(){
+        click(By.xpath("//*[.='sign in']"));
+        goToTheNextTab(1);
+
     }
     public void clickLogout(){
         wd.findElement(By.xpath("//*[text()=' logout ']")).click();
     }
-//    public void switchTabs(){
-//        ArrayList<Tab> arrayTabs = new ArrayList<>() wd.findElement("");
-//    }
+    public void goToTheNextTab(int num){
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(num));
+    }
 
 }

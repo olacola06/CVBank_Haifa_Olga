@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.telran'
+group 'telran.com'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -45,4 +45,3 @@ test {
 //        if(project.hasProperty('browser')){
 //            systemProperty 'browser',"${browser}"
 //        }
-

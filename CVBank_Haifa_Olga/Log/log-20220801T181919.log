@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-01T15:19:32" hostname="DESKTOP-KF54E9L" time="6.258">
-  <properties/>
-  <testcase name="loginPos" classname="tests.LoginTests" time="6.258"/>
-  <system-out><![CDATA[18:19:31 INFO  tests.TestBase - start to test method ->>loginPos
+18:19:31 INFO  tests.TestBase - start to test method ->>loginPos
 18:19:31 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
 18:19:31 INFO  manager.MyListener - element with locator->>By.xpath: //*[.='sign in']was found
 18:19:32 INFO  tests.TestBase - Login user with email:->>office@prisma-eo.co.il
@@ -15,6 +11,3 @@
 18:19:36 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
 18:19:37 INFO  manager.MyListener - element with locator->>By.xpath: //*[text()=' logout ']was found
 18:19:38 INFO  tests.TestBase - end to test method ->>loginPos
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -12,6 +12,7 @@ public class ApplicationManager {
     String browser;
     EventFiringWebDriver wd;
     LoginHelper login;
+    HelperBase regist;
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
@@ -25,15 +26,20 @@ public class ApplicationManager {
         }
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wd.navigate().to("https://cv-bank-new.web.app/");
+        wd.navigate().to("https://www.gcvbank.com");
 
         wd.register(new MyListener());
 
         login = new LoginHelper(wd);
+        regist = new RegistrationHelper(wd);
 
     }
     public LoginHelper login(){
         return login;
+    }
+
+        public RegistrationHelper regist(){
+        return (RegistrationHelper) regist;
     }
     public void stop(){
         wd.quit();
