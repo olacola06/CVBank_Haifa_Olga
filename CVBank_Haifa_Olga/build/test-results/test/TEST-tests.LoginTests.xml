@@ -1,20 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-01T15:19:32" hostname="DESKTOP-KF54E9L" time="6.258">
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-02T16:14:59" hostname="DESKTOP-KF54E9L" time="11.711">
   <properties/>
-  <testcase name="loginPos" classname="tests.LoginTests" time="6.258"/>
-  <system-out><![CDATA[18:19:31 INFO  tests.TestBase - start to test method ->>loginPos
-18:19:31 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
-18:19:31 INFO  manager.MyListener - element with locator->>By.xpath: //*[.='sign in']was found
-18:19:32 INFO  tests.TestBase - Login user with email:->>office@prisma-eo.co.il
-18:19:32 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
-18:19:35 INFO  manager.MyListener - element with locator->>By.cssSelector: input#emailwas found
-18:19:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
-18:19:36 INFO  manager.MyListener - element with locator->>By.cssSelector: input#passwordwas found
-18:19:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
-18:19:36 INFO  manager.MyListener - element with locator->>By.cssSelector:  button[type='submit']was found
-18:19:36 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
-18:19:37 INFO  manager.MyListener - element with locator->>By.xpath: //*[text()=' logout ']was found
-18:19:38 INFO  tests.TestBase - end to test method ->>loginPos
+  <testcase name="loginWrongEmail" classname="tests.LoginTests" time="11.711">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 58f7d69cd43c423f1136a28d6952891d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58f7d69cd43c423f1136a28d6952891d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at manager.LoginHelper.isAlertPresent(LoginHelper.java:37)
+	at tests.LoginTests.loginWrongEmail(LoginTests.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[19:14:54 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+19:14:54 INFO  manager.MyListener - element with locator->>By.xpath: //*[.='sign in']was found
+19:14:56 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+19:14:58 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='close']was found
+19:14:59 INFO  tests.TestBase - start to test method ->>loginWrongEmail
+19:14:59 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign in ']
+19:14:59 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='sign in ']was found
+19:14:59 INFO  tests.TestBase - Login user with email:->>officeprisma-eo.co.il
+19:14:59 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+19:14:59 INFO  manager.MyListener - element with locator->>By.cssSelector: input#emailwas found
+19:15:00 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+19:15:00 INFO  manager.MyListener - element with locator->>By.cssSelector: input#passwordwas found
+19:15:00 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+19:15:00 INFO  manager.MyListener - element with locator->>By.cssSelector:  button[type='submit']was found
+19:15:10 INFO  tests.TestBase - end to test method ->>loginWrongEmail
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

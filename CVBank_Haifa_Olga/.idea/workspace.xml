@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7dd06f3-2d7c-4c22-a817-2c4754441f60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/RegistrationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220731T193201.log" beforeDir="false" />
+    <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220801T181919.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/LoginHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.LoginTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.LoginTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
@@ -27,11 +25,9 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +39,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Cl232ZZvWHrhS0pCIXLJE8H4Ge" />
+  <component name="ProjectId" id="2CnuyBcpH29FT8kc4Uu43snlwtr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,8 +57,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="LoginTests.loginPos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTests.loginWrongEmail">
+    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -82,7 +71,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.loginPos&quot;" />
+            <option value="&quot;tests.LoginTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTests.loginWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.LoginTests.loginWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -94,18 +106,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests.loginPos" />
+        <item itemvalue="Gradle.LoginTests.loginWrongEmail" />
+        <item itemvalue="Gradle.LoginTests" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7dd06f3-2d7c-4c22-a817-2c4754441f60" name="Changes" comment="" />
-      <created>1659362649536</created>
+      <changelist id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="" />
+      <created>1659450923658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659362649536</updated>
+      <updated>1659450923658</updated>
     </task>
     <servers />
   </component>
