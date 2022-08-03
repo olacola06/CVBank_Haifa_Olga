@@ -1,6 +1,0 @@
-12:51:48 INFO  tests.TestBase - start to test method ->>createResume
-12:51:48 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
-12:51:48 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='create CV']was found
-12:51:49 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
-12:51:51 INFO  manager.MyListener - element with locator->>By.xpath: (//div[@class='cover'])[1]was found
-12:51:52 INFO  tests.TestBase - end to test method ->>createResume

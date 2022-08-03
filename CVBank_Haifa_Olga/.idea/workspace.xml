@@ -5,31 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220802T191440.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/LoginHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/RegistrationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/RegistrationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.LoginTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.LoginTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/RegistrationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/RegistrationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +26,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +63,7 @@
     "last_opened_file_path": "C:/Users/Olga/GitHub/QA_12_IlCarro"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CreateCv">
+  <component name="RunManager" selected="Gradle.CreateCv.createResume">
     <configuration name="CreateCv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -91,7 +87,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCv.createResume" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests&quot;" />
+            <option value="&quot;tests.CreateCv.createResume&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCv.createResume" />
         <item itemvalue="Gradle.CreateCv" />
         <item itemvalue="Gradle.RegistrationTests" />
         <item itemvalue="Gradle.RegistrationTests.registrationWrongEmail" />
         <item itemvalue="Gradle.RegistrationTests.registartionPos" />
-        <item itemvalue="Gradle.LoginTests" />
       </list>
     </recent_temporary>
   </component>
