@@ -12,7 +12,8 @@ public class ApplicationManager {
     String browser;
     EventFiringWebDriver wd;
     LoginHelper login;
-    HelperBase regist;
+    RegistrationHelper regist;
+    CreateCvHelper cv;
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
@@ -32,14 +33,17 @@ public class ApplicationManager {
 
         login = new LoginHelper(wd);
         regist = new RegistrationHelper(wd);
+        cv = new CreateCvHelper(wd);
 
     }
     public LoginHelper login(){
         return login;
     }
-
-        public RegistrationHelper regist(){
-        return (RegistrationHelper) regist;
+    public RegistrationHelper regist(){
+        return regist;
+    }
+    public CreateCvHelper getCv(){
+        return cv;
     }
     public void stop(){
         wd.quit();

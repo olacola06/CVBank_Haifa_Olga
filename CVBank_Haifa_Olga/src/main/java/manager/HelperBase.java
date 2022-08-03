@@ -51,4 +51,9 @@ public class HelperBase {
         wd.switchTo().window(tabs.get(1));
     }
 
+    public void switchToTheMainPage() {
+        List <String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1)).close();
+        wd.switchTo().window(tabs.get(0));
+    }
 }

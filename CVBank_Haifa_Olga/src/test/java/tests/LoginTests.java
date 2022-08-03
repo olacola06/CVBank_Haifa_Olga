@@ -9,14 +9,9 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    @BeforeClass
-    public void preConditionOneTime() {
-        app.login().signInFirst();
-        //app.login().clickSingIn();
-    }
-
     @BeforeMethod
     public void preCondition() {
+        app.login().signInFirst();
         app.login().clickSingIn();
     }
 
@@ -36,6 +31,23 @@ public class LoginTests extends TestBase {
         logger.info("Login user with email:->>" + user.getEmail());
         app.login().loginUser(user);
 
-        Assert.assertEquals("Wrong email format",app.login().isAlertPresent());
+        Assert.assertEquals(app.login().wrongEmailPassFormatMessage(),"Wrong email format");
+        logger.info("Wrong email format");
+    }
+    @Test
+    public void loginWrongPassword(){
+        User user = User.builder().email("office@prisma-eo.co.il").password("Bb123").build();
+        logger.info("Login user with email:->>" + user.getEmail());
+        app.login().loginUser(user);
+
+        Assert.assertEquals(app.login().wrongEmailPassFormatMessage(),"Password length should be minimum 8 symbols");
+        logger.info("Password length should be minimum 8 symbols");
+
+
+    }
+
+    @AfterMethod
+    public void postCondition(){
+        app.login().switchToTheMainPage();
     }
 }
