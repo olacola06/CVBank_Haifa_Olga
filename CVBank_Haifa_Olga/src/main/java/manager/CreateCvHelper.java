@@ -24,19 +24,94 @@ public class CreateCvHelper extends HelperBase{
         type((By.id("city")),cv.getCity());
         type((By.id("phone")),cv.getPhone());
         type((By.id("email")),cv.getPhone());
+        click(By.xpath("//span[.='Save']"));
     }
 
     private void typeDateOfBirth(String birthday) {
-        String[] data = birthday.split("/");
-        int yearOfBirth = Integer.parseInt(data[2]);
         click(By.xpath("//*[@aria-label='Open calendar']"));
         click(By.cssSelector("button[aria-label='Choose month and year']"));
+        String[] data = birthday.split("/");
+        int yearOfBirth = Integer.parseInt(data[2]);
+        chooseYearBirth(yearOfBirth);
+        //chooseMonthBirth(Integer.parseInt(data[1]));
+        String month = chooseMonthBirth(data[1]);
+        String monthLocator = String.format("//td[.=' %s ']",month);
+        click(By.xpath(monthLocator));
+        String dayLocator = String.format("//div[.=' %s ']",data[0]);
+        click(By.xpath(dayLocator));
+
+    }
+     private String chooseMonthBirth(String month) {
+        switch (month) {
+            case ("01"): month = "JAN";
+                break;
+            case ("02"):month = "FEB";
+                break;
+            case ("03"):month = "MAR";
+                break;
+            case ("04"):month = "APR";
+                break;
+            case ("05"):month = "MAY";
+                break;
+            case ("06"):month = "JUN";
+                break;
+            case ("07"):month = "JUL";
+                break;
+            case ("08"):month = "AUG";
+                break;
+            case ("09"):month = "SEP";
+                break;
+            case ("10"):month = "OCT";
+                break;
+            case ("11"):month = "NOV";
+                break;
+            case ("12"):month = "DEC";
+                break;
+            default:break;
+        }
+        return month;
+    }
+
+//    private void chooseMonthBirth(int month) {
+//
+//        switch (month) {
+//            case 1: wd.findElement(By.xpath("//td[.=' JAN ']")).click();
+//                 break;
+//            case 2: wd.findElement(By.xpath("//td[.=' FEB ']")).click();
+//                break;
+//            case 3: wd.findElement(By.xpath("//td[.=' MAR ']")).click();
+//                break;
+//            case 4: wd.findElement(By.xpath("//td[.=' APR ']")).click();
+//                break;
+//            case 5: wd.findElement(By.xpath("//td[.=' MAY ']")).click();
+//                break;
+//            case 6: wd.findElement(By.xpath("//td[.=' JUN ']")).click();
+//                break;
+//            case 7: wd.findElement(By.xpath("//td[.=' JUL ']")).click();
+//                break;
+//            case 8: wd.findElement(By.xpath("//td[.=' AUG ']")).click();
+//                break;
+//            case 9: wd.findElement(By.xpath("//td[.=' SEP ']")).click();
+//                break;
+//            case 10: wd.findElement(By.xpath("//td[.=' OCT ']")).click();
+//                break;
+//            case 11: wd.findElement(By.xpath("//td[.=' NOV ']")).click();
+//                break;
+//            case 12: wd.findElement(By.xpath("//td[.=' DEC ']")).click();
+//                break;
+//            default:break;
+//        }
+//    }
+
+    private void chooseYearBirth(int year){
         int yearToCompare = Integer.parseInt(wd.findElement
                 (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child")).getText());
-        while (yearOfBirth<yearToCompare)
+        while (year<yearToCompare)
         {click(By.xpath("//*[@aria-label='Previous 20 years']"));
+            yearToCompare = Integer.parseInt(wd.findElement
+                    (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child")).getText());
         }
-        click(By.xpath("//*[.=' "+yearOfBirth+" ']"));
+        click(By.xpath("//*[.=' "+year+" ']"));
 
     }
 

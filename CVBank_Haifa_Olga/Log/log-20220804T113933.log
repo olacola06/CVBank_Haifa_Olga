@@ -1,0 +1,44 @@
+11:39:45 INFO  tests.TestBase - start to test method ->>createResume
+11:39:45 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+11:39:45 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='create CV']was found
+11:39:46 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+11:39:49 INFO  manager.MyListener - element with locator->>By.xpath: (//div[@class='cover'])[1]was found
+11:39:49 INFO  manager.MyListener - start search for element with locator->>By.id: name
+11:39:50 INFO  manager.MyListener - element with locator->>By.id: namewas found
+11:39:50 INFO  manager.MyListener - start search for element with locator->>By.id: position
+11:39:50 INFO  manager.MyListener - element with locator->>By.id: positionwas found
+11:39:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+11:39:51 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Open calendar']was found
+11:39:51 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+11:39:51 INFO  manager.MyListener - element with locator->>By.cssSelector: button[aria-label='Choose month and year']was found
+11:39:51 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+11:39:51 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+11:39:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+11:39:52 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Previous 20 years']was found
+11:39:52 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+11:39:52 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+11:39:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1973 ']
+11:39:52 INFO  manager.MyListener - element with locator->>By.xpath: //*[.=' 1973 ']was found
+11:39:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' AUG ']
+11:39:52 INFO  manager.MyListener - element with locator->>By.xpath: //td[.=' AUG ']was found
+11:39:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' $s ']
+11:40:02 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/create
+11:40:02 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[.=' $s ']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b756df2b34e6ccaf7d7a2e4eb3ddefb
+*** Element info: {Using=xpath, value=//div[.=' $s ']}
+11:40:02 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[.=' $s ']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b756df2b34e6ccaf7d7a2e4eb3ddefb
+*** Element info: {Using=xpath, value=//div[.=' $s ']}
+11:40:03 INFO  tests.TestBase - end to test method ->>createResume

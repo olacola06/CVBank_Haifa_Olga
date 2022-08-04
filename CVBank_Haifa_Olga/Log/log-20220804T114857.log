@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.CreateCv" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-04T08:49:09" hostname="DESKTOP-KF54E9L" time="8.769">
-  <properties/>
-  <testcase name="createResume" classname="tests.CreateCv" time="8.769"/>
-  <system-out><![CDATA[11:49:09 INFO  tests.TestBase - start to test method ->>createResume
+11:49:09 INFO  tests.TestBase - start to test method ->>createResume
 11:49:09 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
 11:49:09 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='create CV']was found
 11:49:09 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
@@ -38,6 +34,3 @@
 11:49:18 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
 11:49:18 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='Save']was found
 11:49:18 INFO  tests.TestBase - end to test method ->>createResume
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

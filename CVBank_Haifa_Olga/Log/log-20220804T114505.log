@@ -1,0 +1,34 @@
+11:45:15 INFO  tests.TestBase - start to test method ->>createResume
+11:45:15 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+11:45:15 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='create CV']was found
+11:45:16 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+11:45:19 INFO  manager.MyListener - element with locator->>By.xpath: (//div[@class='cover'])[1]was found
+11:45:19 INFO  manager.MyListener - start search for element with locator->>By.id: name
+11:45:19 INFO  manager.MyListener - element with locator->>By.id: namewas found
+11:45:20 INFO  manager.MyListener - start search for element with locator->>By.id: position
+11:45:20 INFO  manager.MyListener - element with locator->>By.id: positionwas found
+11:45:20 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+11:45:20 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Open calendar']was found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+11:45:21 INFO  manager.MyListener - element with locator->>By.cssSelector: button[aria-label='Choose month and year']was found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+11:45:21 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+11:45:21 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Previous 20 years']was found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+11:45:21 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1973 ']
+11:45:21 INFO  manager.MyListener - element with locator->>By.xpath: //*[.=' 1973 ']was found
+11:45:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' AUG ']
+11:45:21 INFO  manager.MyListener - element with locator->>By.xpath: //td[.=' AUG ']was found
+11:45:22 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 12 ']
+11:45:22 INFO  manager.MyListener - element with locator->>By.xpath: //div[.=' 12 ']was found
+11:45:22 INFO  manager.MyListener - start search for element with locator->>By.id: country
+11:45:22 INFO  manager.MyListener - element with locator->>By.id: countrywas found
+11:45:22 INFO  manager.MyListener - start search for element with locator->>By.id: city
+11:45:22 INFO  manager.MyListener - element with locator->>By.id: citywas found
+11:45:23 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+11:45:23 INFO  manager.MyListener - element with locator->>By.id: phonewas found
+11:45:23 INFO  manager.MyListener - start search for element with locator->>By.id: email
+11:45:23 INFO  manager.MyListener - element with locator->>By.id: emailwas found
+11:45:23 INFO  tests.TestBase - end to test method ->>createResume

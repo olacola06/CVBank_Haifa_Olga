@@ -1,0 +1,41 @@
+10:08:26 INFO  tests.TestBase - start to test method ->>createResume
+10:08:26 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+10:08:26 INFO  manager.MyListener - element with locator->>By.xpath: //span[.='create CV']was found
+10:08:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+10:08:34 INFO  manager.MyListener - element with locator->>By.xpath: (//div[@class='cover'])[1]was found
+10:08:34 INFO  manager.MyListener - start search for element with locator->>By.id: name
+10:08:34 INFO  manager.MyListener - element with locator->>By.id: namewas found
+10:08:35 INFO  manager.MyListener - start search for element with locator->>By.id: position
+10:08:35 INFO  manager.MyListener - element with locator->>By.id: positionwas found
+10:08:35 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+10:08:35 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Open calendar']was found
+10:08:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+10:08:36 INFO  manager.MyListener - element with locator->>By.cssSelector: button[aria-label='Choose month and year']was found
+10:08:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+10:08:36 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+10:08:36 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+10:08:36 INFO  manager.MyListener - element with locator->>By.xpath: //*[@aria-label='Previous 20 years']was found
+10:08:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+10:08:36 INFO  manager.MyListener - element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
+10:08:36 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1973 ']
+10:08:37 INFO  manager.MyListener - element with locator->>By.xpath: //*[.=' 1973 ']was found
+10:08:37 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' AUG ']
+10:08:37 INFO  manager.MyListener - element with locator->>By.xpath: //td[.=' AUG ']was found
+10:08:37 INFO  manager.MyListener - start search for element with locator->>By.id: country
+10:08:37 INFO  manager.MyListener - element with locator->>By.id: countrywas found
+10:08:38 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/create
+10:08:38 INFO  manager.MyListener - element click intercepted: Element <input _ngcontent-pbd-c108="" id="country" formcontrolname="country" matinput="" type="text" placeholder="Type your country" class="mat-input-element mat-form-field-autofill-control ng-tns-c89-4 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid" ng-reflect-id="country" ng-reflect-type="text" ng-reflect-placeholder="Type your country" ng-reflect-name="country" aria-invalid="false" aria-required="false"> is not clickable at point (499, 379). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15772639f0bbee1b825e50fb1083c120
+10:08:38 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-pbd-c108="" id="country" formcontrolname="country" matinput="" type="text" placeholder="Type your country" class="mat-input-element mat-form-field-autofill-control ng-tns-c89-4 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid" ng-reflect-id="country" ng-reflect-type="text" ng-reflect-placeholder="Type your country" ng-reflect-name="country" aria-invalid="false" aria-required="false"> is not clickable at point (499, 379). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15772639f0bbee1b825e50fb1083c120
+10:08:39 INFO  tests.TestBase - end to test method ->>createResume
