@@ -2,7 +2,9 @@ package manager;
 
 import models.Cv;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CreateCvHelper extends HelperBase{
 
@@ -15,7 +17,7 @@ public class CreateCvHelper extends HelperBase{
         goToTheNextTab();
     }
 
-    public void fillCvForHeader(Cv cv) {
+    public boolean fillCvForHeader(Cv cv) {
         click(By.xpath("(//div[@class='cover'])[1]"));
         type((By.id("name")),cv.getName());
         type((By.id("position")),cv.getPosition());
@@ -25,6 +27,8 @@ public class CreateCvHelper extends HelperBase{
         type((By.id("phone")),cv.getPhone());
         type((By.id("email")),cv.getPhone());
         click(By.xpath("//span[.='Save']"));
+        String checkMessage = wd.findElement(By.cssSelector("section#header div[class=title] h2")).getText();
+        return checkMessage.contains(cv.getName().toUpperCase());
     }
 
     private void typeDateOfBirth(String birthday) {
@@ -37,8 +41,9 @@ public class CreateCvHelper extends HelperBase{
         String month = chooseMonthBirth(data[1]);
         String monthLocator = String.format("//td[.=' %s ']",month);
         click(By.xpath(monthLocator));
-        String dayLocator = String.format("//div[.=' %s ']",data[0]);
-        click(By.xpath(dayLocator));
+//        String dayLocator = String.format("//div[.=' %s ']",data[0]);
+//        click(By.xpath(dayLocator));
+        click(By.xpath("//div[.=' "+ data[0] +" ']"));
 
     }
      private String chooseMonthBirth(String month) {
@@ -115,4 +120,35 @@ public class CreateCvHelper extends HelperBase{
 
     }
 
+    public void fillExperienceForm(Cv cv, String startYear, String endYear) {
+        click(By.id("experience"));
+        fillYears(startYear,endYear);
+        type(By.id("companyName"),cv.getCompanyName());
+        type(By.id("companyLocation"),cv.getCompanyLocation());
+        type(By.id("url"),cv.getCompanyUrl());
+        type(By.id("position"),cv.getPosition());
+        click(By.cssSelector("button[type='submit']"));
+
+    }
+
+    private void fillYears(String startYear, String endYear) {
+        WebElement el = wd.findElement(By.id("startDate"));
+        el.sendKeys(Keys.CONTROL+"a");
+        el.sendKeys(Keys.DELETE);
+        el.sendKeys(startYear);
+        WebElement el2 = wd.findElement(By.id("endDate"));
+        el2.sendKeys(Keys.CONTROL+"a");
+        el2.sendKeys(Keys.DELETE);
+        el2.sendKeys(endYear);
+    }
+
+    public boolean assertExperience(String startYear, String endYear) {
+        String message = wd.findElement(By.cssSelector("section#experience ul")).getText();
+        return message.contains(startYear) && message.contains(endYear);
+    }
+
+    public void previewAndPublish(int cvLookNum) {
+        click(By.xpath("//*[.=' Preview ']"));
+        click(By.cssSelector("div[class=slider] div:nth-child("+cvLookNum+")"));
+    }
 }

@@ -18,4 +18,7 @@ public class Cv {
     String city;
     String phone;
     String email;
+    String companyName;
+    String companyLocation;
+    String companyUrl;
 }

@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">8.769s</div>
+<div class="counter">4.463s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,13 +61,78 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="createResume"></a>
+<h3 class="failures">createResume</h3>
+<span class="code">
+<pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at tests.CreateCv.createResume(CreateCv.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -78,51 +143,71 @@
 </tr>
 </thead>
 <tr>
-<td class="success">createResume</td>
-<td class="success">8.769s</td>
-<td class="success">passed</td>
+<td class="failures">createResume</td>
+<td class="failures">4.463s</td>
+<td class="failures">failed</td>
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>11:49:09 INFO  tests.TestBase - start to test method -&gt;&gt;createResume
-11:49:09 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //span[.='create CV']
-11:49:09 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //span[.='create CV']was found
-11:49:09 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: (//div[@class='cover'])[1]
-11:49:12 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: (//div[@class='cover'])[1]was found
-11:49:13 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: name
-11:49:13 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: namewas found
-11:49:14 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: position
-11:49:14 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: positionwas found
-11:49:14 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[@aria-label='Open calendar']
-11:49:14 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //*[@aria-label='Open calendar']was found
-11:49:14 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: button[aria-label='Choose month and year']
-11:49:14 INFO  manager.MyListener - element with locator-&gt;&gt;By.cssSelector: button[aria-label='Choose month and year']was found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[@aria-label='Previous 20 years']
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //*[@aria-label='Previous 20 years']was found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-childwas found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[.=' 1973 ']
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //*[.=' 1973 ']was found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //td[.=' AUG ']
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //td[.=' AUG ']was found
-11:49:15 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //div[.=' 12 ']
-11:49:15 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //div[.=' 12 ']was found
-11:49:16 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: country
-11:49:16 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: countrywas found
-11:49:16 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: city
-11:49:16 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: citywas found
-11:49:17 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: phone
-11:49:17 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: phonewas found
-11:49:18 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: email
-11:49:18 INFO  manager.MyListener - element with locator-&gt;&gt;By.id: emailwas found
-11:49:18 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //span[.='Save']
-11:49:18 INFO  manager.MyListener - element with locator-&gt;&gt;By.xpath: //span[.='Save']was found
-11:49:18 INFO  tests.TestBase - end to test method -&gt;&gt;createResume
+<pre>20:22:26 INFO  tests.TestBase - start to test method -&gt;&gt;createResume
+20:22:26 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //span[.='create CV']
+20:22:26 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //span[.='create CV'] was found
+20:22:26 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: (//div[@class='cover'])[1]
+20:22:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: (//div[@class='cover'])[1] was found
+20:22:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: name
+20:22:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: name was found
+20:22:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: position
+20:22:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: position was found
+20:22:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[@aria-label='Open calendar']
+20:22:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //*[@aria-label='Open calendar'] was found
+20:22:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: button[aria-label='Choose month and year']
+20:22:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: button[aria-label='Choose month and year'] was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[@aria-label='Previous 20 years']
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //*[@aria-label='Previous 20 years'] was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[.=' 1973 ']
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //*[.=' 1973 '] was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //td[.=' AUG ']
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //td[.=' AUG '] was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //div[.=' 12 ']
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //div[.=' 12 '] was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: country
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: country was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: city
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: city was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: phone
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: phone was found
+20:22:29 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: email
+20:22:29 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: email was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //span[.='Save']
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //span[.='Save'] was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: section#header div[class=title] h2
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: section#header div[class=title] h2 was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: experience
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: experience was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: startDate
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: startDate was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: endDate
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: endDate was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: companyName
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: companyName was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: companyLocation
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: companyLocation was found
+20:22:30 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: url
+20:22:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: url was found
+20:22:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.id: position
+20:22:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.id: position was found
+20:22:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: button[type='submit']
+20:22:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: button[type='submit'] was found
+20:22:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: section#experience ul
+20:22:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: section#experience ul was found
+20:22:31 INFO  tests.TestBase - end to test method -&gt;&gt;createResume
 </pre>
 </span>
 </div>
@@ -134,7 +219,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 04.08.2022 11:49:19</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 05.08.2022 20:22:31</p>
 </div>
 </div>
 </body>
