@@ -5,6 +5,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.reporters.Files;
+
+import java.io.File;
+import java.util.HashMap;
+
 
 public class CreateCvHelper extends HelperBase{
 
@@ -150,5 +157,18 @@ public class CreateCvHelper extends HelperBase{
     public void previewAndPublish(int cvLookNum) {
         click(By.xpath("//*[.=' Preview ']"));
         click(By.cssSelector("div[class=slider] div:nth-child("+cvLookNum+")"));
+        click(By.cssSelector("div[class=header] button:first-of-type"));
+        downloadCv();
+
     }
-}
+
+    public void downloadCv() {
+        HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+        chromePrefs.put("download.default_directory", "C:/Users/Olga/Downloads");
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("prefs", chromePrefs);
+        downloadCv();
+
+
+    }
+} 
