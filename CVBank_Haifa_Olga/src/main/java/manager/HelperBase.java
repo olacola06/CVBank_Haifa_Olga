@@ -1,6 +1,7 @@
 package manager;
 
 import javafx.scene.control.Tab;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +30,11 @@ public class HelperBase {
         el.clear();
         el.sendKeys(text);
 
+    }
+    public void loginUser(User user) {
+        type((By.cssSelector("input#email")),user.getEmail());
+        type((By.cssSelector("input#password")),user.getPassword());
+        wd.findElement(By.cssSelector(" button[type='submit']")).click();
     }
 
     public void pause(int milles) {

@@ -1,6 +1,7 @@
 package tests;
 
 import models.Cv;
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,6 +18,7 @@ public class CreateCv extends TestBase{
                 .city("haifa").phone("036485478").email("pavel@mail.ru")
                 .companyName("Neokor").companyLocation("Ramot").companyUrl("www.neokor.com")
                 .build();
+        User user = User.builder().email("office@prisma-eo.co.il").password("Bb12345%").build();
         String startYear = "1995";
         String endYear = "2001";
         int cvLookNum = 4;
@@ -26,6 +28,7 @@ public class CreateCv extends TestBase{
         app.getCv().fillExperienceForm(cv, startYear,endYear);
         Assert.assertTrue(app.getCv().assertExperience(startYear,endYear));
 
-        app.getCv().previewAndPublish(cvLookNum);
+        app.getCv().previewAndPublish(cvLookNum, user);
+        app.getCv().loginUser(user);
    }
 }

@@ -1,0 +1,47 @@
+09:02:45 INFO  manager.ApplicationManager - All tests start in Chrome
+09:02:47 INFO  tests.TestBase - start to test method ->>registartionPos
+09:02:47 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:02:47 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:02:47 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+09:02:49 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='close'] was found
+09:02:49 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign up ']
+09:02:49 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign up '] was found
+09:02:49 INFO  manager.MyListener - start search for element with locator->>By.id: name
+09:02:49 INFO  manager.MyListener - element with locator->> By.id: name was found
+09:02:49 INFO  manager.MyListener - start search for element with locator->>By.id: lastName
+09:02:49 INFO  manager.MyListener - element with locator->> By.id: lastName was found
+09:02:49 INFO  manager.MyListener - start search for element with locator->>By.id: email
+09:02:49 INFO  manager.MyListener - element with locator->> By.id: email was found
+09:02:50 INFO  manager.MyListener - start search for element with locator->>By.id: password
+09:02:50 INFO  manager.MyListener - element with locator->> By.id: password was found
+09:02:50 INFO  manager.MyListener - start search for element with locator->>By.id: confirmPassword
+09:02:50 INFO  manager.MyListener - element with locator->> By.id: confirmPassword was found
+09:02:50 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign up']
+09:02:50 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign up'] was found
+09:02:50 INFO  manager.MyListener - start search for element with locator->>By.xpath: //h2[.='Sign up success']
+09:02:51 INFO  manager.MyListener - element with locator->> By.xpath: //h2[.='Sign up success'] was found
+09:02:51 INFO  tests.TestBase - Registration was Success
+09:02:51 INFO  tests.TestBase - end to test method ->>registartionPos
+09:02:51 INFO  tests.TestBase - start to test method ->>registrationWrongEmail
+09:02:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:02:51 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:02:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+09:02:52 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='close'] was found
+09:02:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign up ']
+09:02:52 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign up '] was found
+09:02:52 INFO  manager.MyListener - start search for element with locator->>By.id: name
+09:02:52 INFO  manager.MyListener - element with locator->> By.id: name was found
+09:02:52 INFO  manager.MyListener - start search for element with locator->>By.id: lastName
+09:02:52 INFO  manager.MyListener - element with locator->> By.id: lastName was found
+09:02:52 INFO  manager.MyListener - start search for element with locator->>By.id: email
+09:02:52 INFO  manager.MyListener - element with locator->> By.id: email was found
+09:02:53 INFO  manager.MyListener - start search for element with locator->>By.id: password
+09:02:53 INFO  manager.MyListener - element with locator->> By.id: password was found
+09:02:53 INFO  manager.MyListener - start search for element with locator->>By.id: confirmPassword
+09:02:53 INFO  manager.MyListener - element with locator->> By.id: confirmPassword was found
+09:02:53 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign up']
+09:02:53 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign up'] was found
+09:02:53 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Wrong email format']
+09:02:53 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Wrong email format'] was found
+09:02:53 INFO  tests.TestBase - Error - Wrong email format
+09:02:53 INFO  tests.TestBase - end to test method ->>registrationWrongEmail

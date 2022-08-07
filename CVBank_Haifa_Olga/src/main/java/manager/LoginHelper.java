@@ -15,11 +15,6 @@ public class LoginHelper extends HelperBase {
         super(driver);
     }
 
-    public void loginUser(User user) {
-        type((By.cssSelector("input#email")),user.getEmail());
-        type((By.cssSelector("input#password")),user.getPassword());
-        wd.findElement(By.cssSelector(" button[type='submit']")).click();
-    }
     public boolean logoutBtnPresent(){
         if(wd.findElements(By.xpath("//*[text()=' logout ']")).size()>0){
 //            wd.findElement(By.xpath("//*[text()=' logout ']")).click();

@@ -1,11 +1,15 @@
 package manager;
 
 import models.Cv;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.reporters.Files;
 
@@ -13,12 +17,11 @@ import java.io.File;
 import java.util.HashMap;
 
 
-public class CreateCvHelper extends HelperBase{
+public class CreateCvHelper extends HelperBase {
 
     public CreateCvHelper(WebDriver driver) {
         super(driver);
     }
-
     public void clickCreateCvBtn() {
         click(By.xpath("//span[.='create CV']"));
         goToTheNextTab();
@@ -26,13 +29,13 @@ public class CreateCvHelper extends HelperBase{
 
     public boolean fillCvForHeader(Cv cv) {
         click(By.xpath("(//div[@class='cover'])[1]"));
-        type((By.id("name")),cv.getName());
-        type((By.id("position")),cv.getPosition());
+        type((By.id("name")), cv.getName());
+        type((By.id("position")), cv.getPosition());
         typeDateOfBirth(cv.getBirthday());
-        type((By.id("country")),cv.getCountry());
-        type((By.id("city")),cv.getCity());
-        type((By.id("phone")),cv.getPhone());
-        type((By.id("email")),cv.getPhone());
+        type((By.id("country")), cv.getCountry());
+        type((By.id("city")), cv.getCity());
+        type((By.id("phone")), cv.getPhone());
+        type((By.id("email")), cv.getPhone());
         click(By.xpath("//span[.='Save']"));
         String checkMessage = wd.findElement(By.cssSelector("section#header div[class=title] h2")).getText();
         return checkMessage.contains(cv.getName().toUpperCase());
@@ -46,40 +49,54 @@ public class CreateCvHelper extends HelperBase{
         chooseYearBirth(yearOfBirth);
         //chooseMonthBirth(Integer.parseInt(data[1]));
         String month = chooseMonthBirth(data[1]);
-        String monthLocator = String.format("//td[.=' %s ']",month);
+        String monthLocator = String.format("//td[.=' %s ']", month);
         click(By.xpath(monthLocator));
 //        String dayLocator = String.format("//div[.=' %s ']",data[0]);
 //        click(By.xpath(dayLocator));
-        click(By.xpath("//div[.=' "+ data[0] +" ']"));
+        click(By.xpath("//div[.=' " + data[0] + " ']"));
 
     }
-     private String chooseMonthBirth(String month) {
+
+    private String chooseMonthBirth(String month) {
         switch (month) {
-            case ("01"): month = "JAN";
+            case ("01"):
+                month = "JAN";
                 break;
-            case ("02"):month = "FEB";
+            case ("02"):
+                month = "FEB";
                 break;
-            case ("03"):month = "MAR";
+            case ("03"):
+                month = "MAR";
                 break;
-            case ("04"):month = "APR";
+            case ("04"):
+                month = "APR";
                 break;
-            case ("05"):month = "MAY";
+            case ("05"):
+                month = "MAY";
                 break;
-            case ("06"):month = "JUN";
+            case ("06"):
+                month = "JUN";
                 break;
-            case ("07"):month = "JUL";
+            case ("07"):
+                month = "JUL";
                 break;
-            case ("08"):month = "AUG";
+            case ("08"):
+                month = "AUG";
                 break;
-            case ("09"):month = "SEP";
+            case ("09"):
+                month = "SEP";
                 break;
-            case ("10"):month = "OCT";
+            case ("10"):
+                month = "OCT";
                 break;
-            case ("11"):month = "NOV";
+            case ("11"):
+                month = "NOV";
                 break;
-            case ("12"):month = "DEC";
+            case ("12"):
+                month = "DEC";
                 break;
-            default:break;
+            default:
+                break;
         }
         return month;
     }
@@ -115,36 +132,36 @@ public class CreateCvHelper extends HelperBase{
 //        }
 //    }
 
-    private void chooseYearBirth(int year){
-        int yearToCompare = Integer.parseInt(wd.findElement
-                (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child")).getText());
-        while (year<yearToCompare)
-        {click(By.xpath("//*[@aria-label='Previous 20 years']"));
+    private void chooseYearBirth(int year) {
+     int yearToCompare = Integer.parseInt(wd.findElement
+             (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child div")).getText());
+     while (year < yearToCompare) {
+            click(By.xpath("//*[@aria-label='Previous 20 years']"));
             yearToCompare = Integer.parseInt(wd.findElement
                     (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child")).getText());
-        }
-        click(By.xpath("//*[.=' "+year+" ']"));
+     }
+        click(By.xpath("//*[.=' " + year + " ']"));
 
     }
 
     public void fillExperienceForm(Cv cv, String startYear, String endYear) {
         click(By.id("experience"));
-        fillYears(startYear,endYear);
-        type(By.id("companyName"),cv.getCompanyName());
-        type(By.id("companyLocation"),cv.getCompanyLocation());
-        type(By.id("url"),cv.getCompanyUrl());
-        type(By.id("position"),cv.getPosition());
+        fillYears(startYear, endYear);
+        type(By.id("companyName"), cv.getCompanyName());
+        type(By.id("companyLocation"), cv.getCompanyLocation());
+        type(By.id("url"), cv.getCompanyUrl());
+        type(By.id("position"), cv.getPosition());
         click(By.cssSelector("button[type='submit']"));
 
     }
 
     private void fillYears(String startYear, String endYear) {
         WebElement el = wd.findElement(By.id("startDate"));
-        el.sendKeys(Keys.CONTROL+"a");
+        el.sendKeys(Keys.CONTROL + "a");
         el.sendKeys(Keys.DELETE);
         el.sendKeys(startYear);
         WebElement el2 = wd.findElement(By.id("endDate"));
-        el2.sendKeys(Keys.CONTROL+"a");
+        el2.sendKeys(Keys.CONTROL + "a");
         el2.sendKeys(Keys.DELETE);
         el2.sendKeys(endYear);
     }
@@ -154,21 +171,20 @@ public class CreateCvHelper extends HelperBase{
         return message.contains(startYear) && message.contains(endYear);
     }
 
-    public void previewAndPublish(int cvLookNum) {
+    public void previewAndPublish(int cvLookNum, User user) {
         click(By.xpath("//*[.=' Preview ']"));
-        click(By.cssSelector("div[class=slider] div:nth-child("+cvLookNum+")"));
+        click(By.cssSelector("div[class=slider] div:nth-child(" + cvLookNum + ")"));
         click(By.cssSelector("div[class=header] button:first-of-type"));
-        downloadCv();
 
-    }
+        pause(5000);
+        File file = new File("C:/Users/ompre/Downloads");
+        Assert.assertTrue(file.exists());
 
-    public void downloadCv() {
-        HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-        chromePrefs.put("download.default_directory", "C:/Users/Olga/Downloads");
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("prefs", chromePrefs);
-        downloadCv();
+        click(By.cssSelector("div[class=header] button:last-of-type"));
+        click(By.xpath("//*[.='Publish ']"));
+        click(By.xpath("//a[.='Sign In']"));
+        new WebDriverWait(wd,10).until(ExpectedConditions
+                .elementToBeClickable(By.cssSelector("input#email")));
 
-
-    }
-} 
+}
+}

@@ -29,7 +29,13 @@ public class ApplicationManager {
     public void init() {
         if (browser.equals(BrowserType.CHROME)) {
             logger.info("All tests start in Chrome");
-            wd = new EventFiringWebDriver(new ChromeDriver());
+//            ChromeOptions options = new ChromeOptions();
+//            HashMap<String, Object> prefs = new HashMap<String, Object>();
+//            prefs.put("download.default_directory", "C:/Users/Olga/Downloads");
+//            prefs.put("profile.default_content_settings.popups", 0);
+//            prefs.put("plugins.always_open_pdf_externally", true);
+//            options.setExperimentalOption("prefs",prefs);
+             wd = new EventFiringWebDriver(new ChromeDriver());
         }else if(browser.equals(BrowserType.FIREFOX)){
             logger.info("All tests start in FireFox");
             wd = new EventFiringWebDriver(new FirefoxDriver());
@@ -46,7 +52,6 @@ public class ApplicationManager {
         login = new LoginHelper(wd);
         regist = new RegistrationHelper(wd);
         cv = new CreateCvHelper(wd);
-        logger.info("ff");
 
     }
     public LoginHelper login(){

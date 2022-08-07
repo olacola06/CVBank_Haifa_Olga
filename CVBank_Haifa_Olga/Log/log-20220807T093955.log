@@ -1,0 +1,58 @@
+09:39:55 INFO  manager.ApplicationManager - All tests start in Chrome
+09:39:58 INFO  tests.TestBase - start to test method ->>loginPos
+09:39:58 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:39:58 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:39:58 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+09:40:08 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='close'] was found
+09:40:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign in ']
+09:40:08 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign in '] was found
+09:40:08 INFO  tests.TestBase - Login user with email:->>office@prisma-eo.co.il
+09:40:08 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+09:40:08 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+09:40:08 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+09:40:08 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+09:40:08 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+09:40:08 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+09:40:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+09:40:10 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+09:40:10 INFO  tests.TestBase - end to test method ->>loginPos
+09:40:10 INFO  tests.TestBase - start to test method ->>loginWrongEmail
+09:40:10 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:40:10 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:40:10 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+09:40:10 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='close'] was found
+09:40:10 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign in ']
+09:40:10 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign in '] was found
+09:40:11 INFO  tests.TestBase - Login user with email:->>officeprisma-eo.co.il
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+09:40:11 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+09:40:11 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+09:40:11 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Wrong email format']
+09:40:11 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Wrong email format'] was found
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Wrong email format']
+09:40:11 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Wrong email format'] was found
+09:40:11 INFO  tests.TestBase - Wrong email format
+09:40:11 INFO  tests.TestBase - end to test method ->>loginWrongEmail
+09:40:11 INFO  tests.TestBase - start to test method ->>loginWrongPassword
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:40:11 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:40:11 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='close']
+09:40:12 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='close'] was found
+09:40:12 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='sign in ']
+09:40:12 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='sign in '] was found
+09:40:12 INFO  tests.TestBase - Login user with email:->>office@prisma-eo.co.il
+09:40:12 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+09:40:12 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+09:40:12 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+09:40:12 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+09:40:12 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+09:40:12 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+09:40:12 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Wrong email format']
+09:40:22 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Wrong email format'] was found
+09:40:22 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.=' Password length should be minimum 8 symbols ']
+09:40:22 INFO  manager.MyListener - element with locator->> By.xpath: //span[.=' Password length should be minimum 8 symbols '] was found
+09:40:22 INFO  tests.TestBase - Password length should be minimum 8 symbols
+09:40:22 INFO  tests.TestBase - end to test method ->>loginWrongPassword

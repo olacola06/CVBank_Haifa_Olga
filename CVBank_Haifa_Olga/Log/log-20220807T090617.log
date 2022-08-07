@@ -1,0 +1,15 @@
+09:06:17 INFO  manager.ApplicationManager - All tests start in Chrome
+09:06:19 INFO  tests.TestBase - start to test method ->>createResume
+09:06:19 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+09:06:19 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+09:06:20 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+09:06:27 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+09:06:27 INFO  manager.MyListener - start search for element with locator->>By.id: name
+09:06:27 INFO  manager.MyListener - element with locator->> By.id: name was found
+09:06:27 INFO  manager.MyListener - start search for element with locator->>By.id: position
+09:06:27 INFO  manager.MyListener - element with locator->> By.id: position was found
+09:06:27 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+09:06:27 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+09:06:27 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+09:06:27 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+09:06:27 INFO  tests.TestBase - end to test method ->>createResume
