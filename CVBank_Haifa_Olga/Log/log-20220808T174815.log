@@ -1,0 +1,79 @@
+17:48:15 INFO  manager.ApplicationManager - All tests start in Chrome
+17:48:28 INFO  tests.TestBase - start to test method ->>createResume
+17:48:28 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+17:48:29 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+17:48:29 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+17:48:32 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+17:48:32 INFO  manager.MyListener - start search for element with locator->>By.id: name
+17:48:33 INFO  manager.MyListener - element with locator->> By.id: name was found
+17:48:33 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:48:33 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+17:48:34 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+17:48:34 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div
+17:48:34 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+17:48:34 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Previous 20 years'] was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+17:48:34 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+17:48:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1973 ']
+17:48:35 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' 1973 '] was found
+17:48:35 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' AUG ']
+17:48:35 INFO  manager.MyListener - element with locator->> By.xpath: //td[.=' AUG '] was found
+17:48:35 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 12 ']
+17:48:35 INFO  manager.MyListener - element with locator->> By.xpath: //div[.=' 12 '] was found
+17:48:35 INFO  manager.MyListener - start search for element with locator->>By.id: country
+17:48:35 INFO  manager.MyListener - element with locator->> By.id: country was found
+17:48:35 INFO  manager.MyListener - start search for element with locator->>By.id: city
+17:48:35 INFO  manager.MyListener - element with locator->> By.id: city was found
+17:48:36 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+17:48:36 INFO  manager.MyListener - element with locator->> By.id: phone was found
+17:48:36 INFO  manager.MyListener - start search for element with locator->>By.id: email
+17:48:36 INFO  manager.MyListener - element with locator->> By.id: email was found
+17:48:37 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
+17:48:37 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Save'] was found
+17:48:37 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#header div[class=title] h2
+17:48:37 INFO  manager.MyListener - element with locator->> By.cssSelector: section#header div[class=title] h2 was found
+17:48:37 INFO  manager.MyListener - start search for element with locator->>By.id: experience
+17:48:37 INFO  manager.MyListener - element with locator->> By.id: experience was found
+17:48:37 INFO  manager.MyListener - start search for element with locator->>By.id: startDate
+17:48:37 INFO  manager.MyListener - element with locator->> By.id: startDate was found
+17:48:40 INFO  manager.MyListener - start search for element with locator->>By.id: endDate
+17:48:40 INFO  manager.MyListener - element with locator->> By.id: endDate was found
+17:48:40 INFO  manager.MyListener - start search for element with locator->>By.id: companyName
+17:48:40 INFO  manager.MyListener - element with locator->> By.id: companyName was found
+17:48:40 INFO  manager.MyListener - start search for element with locator->>By.id: companyLocation
+17:48:40 INFO  manager.MyListener - element with locator->> By.id: companyLocation was found
+17:48:41 INFO  manager.MyListener - start search for element with locator->>By.id: url
+17:48:41 INFO  manager.MyListener - element with locator->> By.id: url was found
+17:48:41 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:48:41 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:48:42 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[type='submit']
+17:48:42 INFO  manager.MyListener - element with locator->> By.cssSelector: button[type='submit'] was found
+17:48:42 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#experience ul
+17:48:42 INFO  manager.MyListener - element with locator->> By.cssSelector: section#experience ul was found
+17:48:42 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' Preview ']
+17:48:42 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' Preview '] was found
+17:48:42 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=slider] div:nth-child(4)
+17:48:42 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=slider] div:nth-child(4) was found
+17:48:42 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:first-of-type
+17:48:43 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:first-of-type was found
+17:48:48 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:last-of-type
+17:48:48 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:last-of-type was found
+17:48:48 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='Publish ']
+17:48:48 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='Publish '] was found
+17:48:48 INFO  manager.MyListener - start search for element with locator->>By.xpath: //a[.='Sign In']
+17:48:48 INFO  manager.MyListener - element with locator->> By.xpath: //a[.='Sign In'] was found
+17:48:49 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:48:49 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:48:49 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:48:49 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:48:50 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:48:50 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+17:48:50 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:48:50 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+17:48:50 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@class='cdk-overlay-16']
+17:49:03 INFO  manager.MyListener - element with locator->> By.xpath: //*[@class='cdk-overlay-16'] was found
+17:49:03 INFO  tests.TestBase - end to test method ->>createResume

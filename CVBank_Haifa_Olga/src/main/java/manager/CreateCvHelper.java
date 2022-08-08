@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.reporters.Files;
 
+import javax.swing.*;
 import java.io.File;
 import java.util.HashMap;
 
@@ -157,6 +158,7 @@ public class CreateCvHelper extends HelperBase {
 
     private void fillYears(String startYear, String endYear) {
         WebElement el = wd.findElement(By.id("startDate"));
+        pause(2000);
         el.sendKeys(Keys.CONTROL + "a");
         el.sendKeys(Keys.DELETE);
         el.sendKeys(startYear);
@@ -177,7 +179,7 @@ public class CreateCvHelper extends HelperBase {
         click(By.cssSelector("div[class=header] button:first-of-type"));
 
         pause(5000);
-        File file = new File("C:/Users/ompre/Downloads");
+        File file = new File("C:/Users/Olga/Downloads");
         Assert.assertTrue(file.exists());
 
         click(By.cssSelector("div[class=header] button:last-of-type"));
@@ -187,4 +189,14 @@ public class CreateCvHelper extends HelperBase {
                 .elementToBeClickable(By.cssSelector("input#email")));
 
 }
+    public boolean cvPublished() {
+
+        new WebDriverWait(wd,10).until(ExpectedConditions.invisibilityOfElementWithText
+                        (By.xpath("//*[@class='cdk-overlay-container']"),"Success"));
+        Action.moveTo(wd).
+
+
+
+
+    }
 }

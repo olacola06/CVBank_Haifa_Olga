@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.CreateCv" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-08T15:18:52" hostname="DESKTOP-KF54E9L" time="23.398">
-  <properties/>
-  <testcase name="createResume" classname="tests.CreateCv" time="23.398"/>
-  <system-out><![CDATA[18:18:51 INFO  tests.TestBase - start to test method ->>createResume
+18:18:34 INFO  manager.ApplicationManager - All tests start in Chrome
+18:18:51 INFO  tests.TestBase - start to test method ->>createResume
 18:18:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
 18:18:51 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
 18:18:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
@@ -80,6 +77,3 @@
 18:19:15 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@class='cdk-overlay-container']
 18:19:15 INFO  manager.MyListener - element with locator->> By.xpath: //*[@class='cdk-overlay-container'] was found
 18:19:15 INFO  tests.TestBase - end to test method ->>createResume
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

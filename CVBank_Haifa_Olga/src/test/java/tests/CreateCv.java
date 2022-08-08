@@ -30,5 +30,8 @@ public class CreateCv extends TestBase{
 
         app.getCv().previewAndPublish(cvLookNum, user);
         app.getCv().loginUser(user);
+
+        Assert.assertTrue(app.getCv().cvPublished());
    }
+
 }
