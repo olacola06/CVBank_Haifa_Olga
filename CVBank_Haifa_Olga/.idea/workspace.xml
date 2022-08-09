@@ -5,78 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/MyDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T075220.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T075348.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T075925.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T080910.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T082155.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T082238.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T082353.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T082655.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T083125.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T083435.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T083952.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T084244.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T084626.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T084858.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T085112.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T085520.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T085732.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T085852.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T090214.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T090244.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T090617.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T090736.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T090909.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T091015.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T091053.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T091144.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T093052.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T093507.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T093744.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T093955.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T094028.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T094108.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T094225.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T094418.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T131514.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T131807.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T134401.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T134453.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T134551.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T153332.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T154056.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T154143.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T154434.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T155122.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T155237.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T155515.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T155800.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T160036.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220807T160356.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220808T174815.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220808T181705.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220808T181834.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/CreateCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/CreateCvHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateCv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateCv.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.CreateCv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.CreateCv.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.CreateCv.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/LoginHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot278.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot3320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot3395.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot3562.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot473.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +79,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/DemoQA_12_Olga&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Olga/GitHub/QA_12_Olga_TicketService"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.CreateCv (1)">
+}]]></component>
+  <component name="RunManager" selected="Gradle.DeleteCv">
     <configuration name="CreateCv (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,7 +133,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateCv.createResumeDP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests&quot;" />
+            <option value="&quot;tests.CreateCv.createResumeDP&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,7 +156,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -217,7 +169,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RegistrationTests&quot;" />
+            <option value="&quot;tests.DeleteCv&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -227,7 +179,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCv.deleteByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -240,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RegistrationTests.registrationWrongEmail&quot;" />
+            <option value="&quot;tests.DeleteCv.deleteByName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -252,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteCv" />
+        <item itemvalue="Gradle.DeleteCv.deleteByName" />
+        <item itemvalue="Gradle.CreateCv.createResumeDP" />
         <item itemvalue="Gradle.CreateCv (1)" />
-        <item itemvalue="Gradle.LoginTests" />
         <item itemvalue="Gradle.CreateCv.createResume (1)" />
-        <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.RegistrationTests.registrationWrongEmail" />
       </list>
     </recent_temporary>
   </component>

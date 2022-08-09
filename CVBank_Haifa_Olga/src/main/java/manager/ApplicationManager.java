@@ -21,6 +21,7 @@ public class ApplicationManager {
     LoginHelper login;
     RegistrationHelper regist;
     CreateCvHelper cv;
+    DeleteCvHelper delCv;
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
@@ -52,6 +53,7 @@ public class ApplicationManager {
         login = new LoginHelper(wd);
         regist = new RegistrationHelper(wd);
         cv = new CreateCvHelper(wd);
+        delCv = new DeleteCvHelper(wd);
 
     }
     public LoginHelper login(){
@@ -62,6 +64,9 @@ public class ApplicationManager {
     }
     public CreateCvHelper getCv(){
         return cv;
+    }
+    public DeleteCvHelper delCv(){
+        return delCv;
     }
     public void stop(){
         wd.quit();

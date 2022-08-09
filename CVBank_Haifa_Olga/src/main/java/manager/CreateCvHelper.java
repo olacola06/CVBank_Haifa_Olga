@@ -2,10 +2,7 @@ package manager;
 
 import models.Cv;
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,6 +20,7 @@ public class CreateCvHelper extends HelperBase {
     public CreateCvHelper(WebDriver driver) {
         super(driver);
     }
+
     public void clickCreateCvBtn() {
         click(By.xpath("//span[.='create CV']"));
         goToTheNextTab();
@@ -134,20 +132,20 @@ public class CreateCvHelper extends HelperBase {
 //    }
 
     private void chooseYearBirth(int year) {
-     int yearToCompare = Integer.parseInt(wd.findElement
-             (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child div")).getText());
-     while (year < yearToCompare) {
+        int yearToCompare = Integer.parseInt(wd.findElement
+                (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child div")).getText());
+        while (year < yearToCompare) {
             click(By.xpath("//*[@aria-label='Previous 20 years']"));
             yearToCompare = Integer.parseInt(wd.findElement
                     (By.cssSelector("tbody[role='grid'] tr:first-child td:first-child")).getText());
-     }
+        }
         click(By.xpath("//*[.=' " + year + " ']"));
 
     }
 
-    public void fillExperienceForm(Cv cv, String startYear, String endYear) {
+    public void fillExperienceForm(Cv cv) {
         click(By.id("experience"));
-        fillYears(startYear, endYear);
+        fillYears(cv.getStartYear(), cv.getEndYear());
         type(By.id("companyName"), cv.getCompanyName());
         type(By.id("companyLocation"), cv.getCompanyLocation());
         type(By.id("url"), cv.getCompanyUrl());
@@ -173,7 +171,7 @@ public class CreateCvHelper extends HelperBase {
         return message.contains(startYear) && message.contains(endYear);
     }
 
-    public void previewAndPublish(int cvLookNum, User user) {
+    public void previewAndPublish(int cvLookNum) {
         click(By.xpath("//*[.=' Preview ']"));
         click(By.cssSelector("div[class=slider] div:nth-child(" + cvLookNum + ")"));
         click(By.cssSelector("div[class=header] button:first-of-type"));
@@ -185,18 +183,17 @@ public class CreateCvHelper extends HelperBase {
         click(By.cssSelector("div[class=header] button:last-of-type"));
         click(By.xpath("//*[.='Publish ']"));
         click(By.xpath("//a[.='Sign In']"));
-        new WebDriverWait(wd,10).until(ExpectedConditions
+        new WebDriverWait(wd, 10).until(ExpectedConditions
                 .elementToBeClickable(By.cssSelector("input#email")));
 
-}
+    }
     public boolean cvPublished() {
 
-        new WebDriverWait(wd,10).until(ExpectedConditions.invisibilityOfElementWithText
-                        (By.xpath("//*[@class='cdk-overlay-container']"),"Success"));
-        Action.moveTo(wd).
-
-
-
-
+        WebElement el = wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"));
+        //String script = "return arguments[0].innerText";
+        //message = (String)((JavascriptExecutor) wd).executeScript(script,el);
+        String message = el.getText();
+        System.out.println(message);
+        return message.contains("Success") && message.contains("Your CV was saved");
     }
 }

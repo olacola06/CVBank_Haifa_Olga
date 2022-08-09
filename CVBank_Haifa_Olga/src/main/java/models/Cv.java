@@ -21,4 +21,6 @@ public class Cv {
     String companyName;
     String companyLocation;
     String companyUrl;
+    String startYear;
+    String endYear;
 }

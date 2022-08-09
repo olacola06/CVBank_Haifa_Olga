@@ -15,17 +15,9 @@ public class LoginHelper extends HelperBase {
         super(driver);
     }
 
-    public boolean logoutBtnPresent(){
-        if(wd.findElements(By.xpath("//*[text()=' logout ']")).size()>0){
-//            wd.findElement(By.xpath("//*[text()=' logout ']")).click();
-            return true;
-        }else{
-            return false;
-        }
-    }
-
     public void clickSingIn() {
         click(By.xpath("//span[.='sign in ']"));
+
 
     }
 

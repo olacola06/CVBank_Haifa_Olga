@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.DeleteCv" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-09T15:51:28" hostname="DESKTOP-KF54E9L" time="3.889">
+  <properties/>
+  <testcase name="deleteByName" classname="tests.DeleteCv" time="3.889"/>
+  <system-out><![CDATA[18:51:12 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+18:51:22 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+18:51:22 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+18:51:22 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+18:51:26 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+18:51:26 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+18:51:27 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+18:51:27 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+18:51:28 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+18:51:28 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+18:51:28 INFO  tests.TestBase - start to test method ->>deleteByName
+18:51:28 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+18:51:32 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+Total amount of created CV = ->>77
+18:51:32 INFO  tests.TestBase - end to test method ->>deleteByName
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
