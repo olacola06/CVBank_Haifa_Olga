@@ -190,8 +190,6 @@ public class CreateCvHelper extends HelperBase {
     public boolean cvPublished() {
 
         WebElement el = wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"));
-        //String script = "return arguments[0].innerText";
-        //message = (String)((JavascriptExecutor) wd).executeScript(script,el);
         String message = el.getText();
         System.out.println(message);
         return message.contains("Success") && message.contains("Your CV was saved");
