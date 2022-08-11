@@ -34,8 +34,8 @@ public class DeleteCvHelper extends HelperBase{
         int amountStart = listCv.size();
         int count = 0;
         logger.info("Total amount of already created CV = ->>"+amountStart);
-        for(int i=0;i<=amountStart;i++){
-        if (listCv.get(i).getText().equals(name)) {
+        for(int i=0;i<amountStart;i++){
+        if (listCv.get(i).getText().contains(name)) {
                 markCheckBox(listCv.get(i));
                 count++;
         }
