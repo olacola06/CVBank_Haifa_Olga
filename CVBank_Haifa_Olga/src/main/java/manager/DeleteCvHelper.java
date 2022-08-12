@@ -16,17 +16,23 @@ public class DeleteCvHelper extends HelperBase{
 
     public void deleteCvByName(String name) {
         List<WebElement> listCv = wd.findElements(By.cssSelector("ul[class='ng-star-inserted'] li cv-seeker-cv-row"));
+        List<WebElement>listCvNames = wd.findElements(By.xpath("//h2[.='"+name+"']"));
         int amountStart = listCv.size();
         logger.info("Total amount of already created CV = ->>" + amountStart);
-        for (WebElement el : listCv) {
-            if (el.getText().contains(name)) {
-                new WebDriverWait(wd, 15).until(ExpectedConditions.visibilityOf(el));
-                markCheckBox(el);
-                click(By.xpath("//button[. = 'delete']"));
-                click(By.xpath("//button[. = 'Delete ']"));
-                Assert.assertTrue(cvDeleted());
+        for(WebElement elN : listCvNames) {
+                if (elN.getText().contains(name)) {
+                    int number = listCvNames.indexOf(elN);
+                    wd.findElement(By.xpath("//label[@for='mat-checkbox-"+number+"-input']")).click();
+                    click(By.xpath("//button[. = 'delete']"));
+                    click(By.xpath("//button[. = 'Delete ']"));
+                    Assert.assertTrue(cvDeleted());
+                }
             }
-        }
+                //new WebDriverWait(wd, 15).until(ExpectedConditions.visibilityOf(el));
+//                click(By.xpath("//button[. = 'delete']"));
+//                click(By.xpath("//button[. = 'Delete ']"));
+//                Assert.assertTrue(cvDeleted());
+
     }
     public void deleteCvByName2(String name) {
         //List<WebElement>listCvNames = wd.findElements(By.xpath("//h2[.='"+name+"']"));
@@ -36,15 +42,21 @@ public class DeleteCvHelper extends HelperBase{
         logger.info("Total amount of already created CV = ->>"+amountStart);
         for(int i=0;i<amountStart;i++){
         if (listCv.get(i).getText().contains(name)) {
-                markCheckBox(listCv.get(i));
-                count++;
+               markCheckBox(listCv.get(i));
+//                count++;
+            click(By.xpath("//button[. = 'delete']"));
+            click(By.xpath("//button[. = 'Delete ']"));
+            Assert.assertTrue(cvDeleted());
+
         }
-            logger.info("Total CV to be deleted = "+count);
+            //logger.info("Total CV to be deleted = "+count);
         }
+        int amountFinish = listCv.size();
+        logger.info("Total amount of CVs = "+amountFinish);
         //logger.info("Total CV to be deleted = "+count);
-        click(By.xpath("//button[. = 'delete']"));
-        click(By.xpath("//button[. = 'Delete ']"));
-        Assert.assertTrue(cvDeleted());
+//        click(By.xpath("//button[. = 'delete']"));
+//        click(By.xpath("//button[. = 'Delete ']"));
+//        Assert.assertTrue(cvDeleted());
     }
 
 //            wd.findElement(By.xpath("//label[@for='mat-checkbox-77-input']")).click();
@@ -69,6 +81,7 @@ public class DeleteCvHelper extends HelperBase{
         WebElement el = wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"));
         String message = el.getText();
         System.out.println(message);
+        new WebDriverWait(wd,15).until(ExpectedConditions.invisibilityOf(el));
         return message.contains("Success") && message.contains("CV was deleted");
     }
 

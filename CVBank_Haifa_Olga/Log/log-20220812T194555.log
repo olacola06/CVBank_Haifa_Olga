@@ -1,0 +1,24 @@
+19:45:56 INFO  manager.ApplicationManager - All tests start in Chrome
+19:45:59 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+19:46:09 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+19:46:09 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+19:46:09 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+19:46:09 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+19:46:18 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+19:46:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+19:46:18 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+19:46:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+19:46:18 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+19:46:18 INFO  tests.TestBase - start to test method ->>deleteByName
+19:46:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+19:46:20 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+19:46:20 INFO  manager.MyListener - start search for element with locator->>By.xpath: //h2[.='Pavel']
+19:46:20 INFO  manager.MyListener - element with locator->> By.xpath: //h2[.='Pavel'] was found
+19:46:20 INFO  manager.HelperBase - Total amount of already created CV = ->>64
+19:46:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+19:46:21 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+19:46:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+19:46:21 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'Delete '] was found
+19:46:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+19:46:21 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+19:46:21 INFO  tests.TestBase - end to test method ->>deleteByName

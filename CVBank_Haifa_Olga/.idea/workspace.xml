@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/GitHub/QA_12_IlCarro&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DeleteCv (1)">
+  <component name="RunManager" selected="Gradle.CreateCv.createResumeDP">
     <configuration name="CreateCv (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,7 +160,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteCv.deleteByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCv.deleteByName (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCv.createResumeDP" />
+        <item itemvalue="Gradle.DeleteCv.deleteByName (1)" />
         <item itemvalue="Gradle.DeleteCv (1)" />
         <item itemvalue="Gradle.CreateCv.createResume (1)" />
-        <item itemvalue="Gradle.DeleteCv.deleteByName" />
-        <item itemvalue="Gradle.CreateCv.createResumeDP" />
         <item itemvalue="Gradle.CreateCv (1)" />
       </list>
     </recent_temporary>

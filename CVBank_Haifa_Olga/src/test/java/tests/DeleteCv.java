@@ -17,7 +17,7 @@ public class DeleteCv extends TestBase {
     @Test
     public void deleteByName(){
         String nameToDelete = "Pavel";
-        app.delCv().deleteCvByName2(nameToDelete);
+        app.delCv().deleteCvByName(nameToDelete);
 
     }
 }

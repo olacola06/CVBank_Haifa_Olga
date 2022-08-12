@@ -1,0 +1,104 @@
+19:39:01 INFO  manager.ApplicationManager - All tests start in Chrome
+19:39:06 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+19:39:16 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+19:39:16 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+19:39:16 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+19:39:16 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+19:39:17 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+19:39:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+19:39:18 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+19:39:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+19:39:18 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+19:39:18 INFO  tests.TestBase - start to test method ->>deleteByName
+19:39:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+19:39:21 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+19:39:21 INFO  manager.HelperBase - Total amount of already created CV = ->>66
+19:39:21 INFO  manager.HelperBase - Total CV to be deleted = 0
+19:39:21 INFO  manager.HelperBase - Total CV to be deleted = 0
+19:39:21 INFO  manager.HelperBase - Total CV to be deleted = 0
+19:39:22 INFO  manager.HelperBase - Total CV to be deleted = 1
+19:39:22 INFO  manager.HelperBase - Total CV to be deleted = 2
+19:39:22 INFO  manager.HelperBase - Total CV to be deleted = 3
+19:39:23 INFO  manager.HelperBase - Total CV to be deleted = 4
+19:39:23 INFO  manager.HelperBase - Total CV to be deleted = 5
+19:39:24 INFO  manager.HelperBase - Total CV to be deleted = 6
+19:39:24 INFO  manager.HelperBase - Total CV to be deleted = 7
+19:39:25 INFO  manager.HelperBase - Total CV to be deleted = 8
+19:39:25 INFO  manager.HelperBase - Total CV to be deleted = 9
+19:39:25 INFO  manager.HelperBase - Total CV to be deleted = 10
+19:39:26 INFO  manager.HelperBase - Total CV to be deleted = 11
+19:39:26 INFO  manager.HelperBase - Total CV to be deleted = 12
+19:39:27 INFO  manager.HelperBase - Total CV to be deleted = 13
+19:39:27 INFO  manager.HelperBase - Total CV to be deleted = 14
+19:39:28 INFO  manager.HelperBase - Total CV to be deleted = 15
+19:39:28 INFO  manager.HelperBase - Total CV to be deleted = 16
+19:39:28 INFO  manager.HelperBase - Total CV to be deleted = 17
+19:39:29 INFO  manager.HelperBase - Total CV to be deleted = 18
+19:39:29 INFO  manager.HelperBase - Total CV to be deleted = 19
+19:39:30 INFO  manager.HelperBase - Total CV to be deleted = 20
+19:39:30 INFO  manager.HelperBase - Total CV to be deleted = 21
+19:39:31 INFO  manager.HelperBase - Total CV to be deleted = 22
+19:39:31 INFO  manager.HelperBase - Total CV to be deleted = 23
+19:39:31 INFO  manager.HelperBase - Total CV to be deleted = 24
+19:39:32 INFO  manager.HelperBase - Total CV to be deleted = 25
+19:39:32 INFO  manager.HelperBase - Total CV to be deleted = 26
+19:39:33 INFO  manager.HelperBase - Total CV to be deleted = 27
+19:39:33 INFO  manager.HelperBase - Total CV to be deleted = 28
+19:39:33 INFO  manager.HelperBase - Total CV to be deleted = 29
+19:39:33 INFO  manager.HelperBase - Total CV to be deleted = 29
+19:39:34 INFO  manager.HelperBase - Total CV to be deleted = 30
+19:39:34 INFO  manager.HelperBase - Total CV to be deleted = 31
+19:39:35 INFO  manager.HelperBase - Total CV to be deleted = 32
+19:39:35 INFO  manager.HelperBase - Total CV to be deleted = 33
+19:39:36 INFO  manager.HelperBase - Total CV to be deleted = 34
+19:39:36 INFO  manager.HelperBase - Total CV to be deleted = 35
+19:39:36 INFO  manager.HelperBase - Total CV to be deleted = 36
+19:39:37 INFO  manager.HelperBase - Total CV to be deleted = 37
+19:39:37 INFO  manager.HelperBase - Total CV to be deleted = 38
+19:39:38 INFO  manager.HelperBase - Total CV to be deleted = 39
+19:39:38 INFO  manager.HelperBase - Total CV to be deleted = 40
+19:39:39 INFO  manager.HelperBase - Total CV to be deleted = 41
+19:39:39 INFO  manager.HelperBase - Total CV to be deleted = 42
+19:39:39 INFO  manager.HelperBase - Total CV to be deleted = 43
+19:39:40 INFO  manager.HelperBase - Total CV to be deleted = 44
+19:39:40 INFO  manager.HelperBase - Total CV to be deleted = 45
+19:39:41 INFO  manager.HelperBase - Total CV to be deleted = 46
+19:39:41 INFO  manager.HelperBase - Total CV to be deleted = 47
+19:39:41 INFO  manager.HelperBase - Total CV to be deleted = 48
+19:39:42 INFO  manager.HelperBase - Total CV to be deleted = 49
+19:39:42 INFO  manager.HelperBase - Total CV to be deleted = 50
+19:39:43 INFO  manager.HelperBase - Total CV to be deleted = 51
+19:39:43 INFO  manager.HelperBase - Total CV to be deleted = 52
+19:39:44 INFO  manager.HelperBase - Total CV to be deleted = 53
+19:39:44 INFO  manager.HelperBase - Total CV to be deleted = 54
+19:39:44 INFO  manager.HelperBase - Total CV to be deleted = 55
+19:39:45 INFO  manager.HelperBase - Total CV to be deleted = 56
+19:39:45 INFO  manager.HelperBase - Total CV to be deleted = 57
+19:39:46 INFO  manager.HelperBase - Total CV to be deleted = 58
+19:39:46 INFO  manager.HelperBase - Total CV to be deleted = 59
+19:39:46 INFO  manager.HelperBase - Total CV to be deleted = 60
+19:39:47 INFO  manager.HelperBase - Total CV to be deleted = 61
+19:39:47 INFO  manager.HelperBase - Total CV to be deleted = 62
+19:39:47 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+19:39:47 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+19:39:47 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+19:39:57 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard/cv/62f11a1f1b9c7572021ad7b2/edit
+19:39:57 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[. = 'Delete ']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de9598db0ed114ad6cfc6af159d0e41d
+*** Element info: {Using=xpath, value=//button[. = 'Delete ']}
+19:39:57 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[. = 'Delete ']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de9598db0ed114ad6cfc6af159d0e41d
+*** Element info: {Using=xpath, value=//button[. = 'Delete ']}
+19:39:57 INFO  tests.TestBase - end to test method ->>deleteByName

@@ -176,7 +176,7 @@ public class CreateCvHelper extends HelperBase {
         click(By.cssSelector("div[class=slider] div:nth-child(" + cvLookNum + ")"));
         click(By.cssSelector("div[class=header] button:first-of-type"));
 
-        pause(5000);
+        pause(3000);
         File file = new File("C:/Users/Olga/Downloads");
         Assert.assertTrue(file.exists());
 
@@ -184,14 +184,15 @@ public class CreateCvHelper extends HelperBase {
         click(By.xpath("//*[.='Publish ']"));
         click(By.xpath("//a[.='Sign In']"));
         new WebDriverWait(wd, 10).until(ExpectedConditions
-                .elementToBeClickable(By.cssSelector("input#email")));
+                .visibilityOf(wd.findElement(By.cssSelector("input#email"))));
 
     }
     public boolean cvPublished() {
-
-        WebElement el = wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"));
+        WebElement el = new WebDriverWait(wd,10).until(ExpectedConditions
+                .visibilityOf(wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"))));
         String message = el.getText();
         System.out.println(message);
+        new WebDriverWait(wd,10).until(ExpectedConditions.invisibilityOf(el));
         return message.contains("Success") && message.contains("Your CV was saved");
     }
 }

@@ -45,6 +45,7 @@ public class CreateCv extends TestBase{
         Assert.assertTrue(app.getCv().assertExperience(cv.getStartYear(), cv.getEndYear()));
 
         app.getCv().previewAndPublish(cvLookNum);
+        app.getCv().pause(3000);
         app.getCv().loginUser(user);
 
         Assert.assertTrue(app.getCv().cvPublished());
