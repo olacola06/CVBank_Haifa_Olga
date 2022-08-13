@@ -32,15 +32,20 @@ public class DeleteCvHelper extends HelperBase {
         List<WebElement> listCv = wd.findElements(By.cssSelector("ul[class='ng-star-inserted'] li cv-seeker-cv-row"));
         int amountStart = listCv.size();
         logger.info("Total amount of already created CV = ->>" + amountStart);
-        //for (int i = 0; i < amountStart; i++) {
-            if (listCv.get(0).getText().contains(name)) {
+        int i=0;
+        do{
+            if (listCv.get(i).getText().contains(name)) {
                 logger.info("Cv with name ->>"+name+ " to be deleted");
-                markCheckBox(listCv.get(0));
+                markCheckBox(listCv.get(i));
                 deleteCv();
+                i--;
                 listCv = wd.findElements(By.cssSelector("ul[class='ng-star-inserted'] li cv-seeker-cv-row"));
                 pause(3000);
-            //}
+            }
+            amountStart--;
+            i++;
         }
+        while(amountStart>0);
         int amountFinish = listCv.size();
         logger.info("Total amount of CVs left = " + amountFinish);
     }
@@ -69,5 +74,15 @@ public class DeleteCvHelper extends HelperBase {
             return true;
         }
         return false;
+    }
+
+    public boolean allDeleted(String name) {
+        List<WebElement> listCvNames = wd.findElements(By.xpath("//h2[.='" + name + "']"));
+        if(listCvNames.size()==0){
+            logger.info("All CVs with name: "+name+" were deleted");
+            return true;
+        }
+        else
+            return false;
     }
 }

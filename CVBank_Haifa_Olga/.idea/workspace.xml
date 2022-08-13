@@ -6,88 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T100346.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T100609.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T100820.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T101102.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T101211.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T195405.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T195832.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T200101.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T201013.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T201232.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220811T201605.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T193901.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T194126.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T194238.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T194409.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T194555.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T194954.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T195223.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T195848.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T200111.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T200455.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T201051.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220812T201213.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/CreateCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/CreateCvHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220813T150437.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220813T150721.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220813T151013.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateCv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-1003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-1145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-2523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-2771.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-278.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-2841.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-2868.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3583.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-3596.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-378.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/screenshots/screenshot-876.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.CreateCv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2771.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2774.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-278.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2784.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2841.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2868.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3583.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3596.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-378.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-876.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +81,31 @@
     "last_opened_file_path": "C:/Users/Olga/SuperScheduler_Olga"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.DeleteCv.deleteAllByName">
-    <configuration name="CreateCv.createResume (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DeleteCv">
+    <configuration name="CreateCv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.CreateCv&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateCv.createResume" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,30 +128,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CreateCv.createResumeDP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.CreateCv.createResumeDP&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DeleteCv (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -263,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteCv" />
         <item itemvalue="Gradle.DeleteCv.deleteAllByName" />
+        <item itemvalue="Gradle.CreateCv" />
+        <item itemvalue="Gradle.CreateCv.createResume" />
         <item itemvalue="Gradle.DeleteCv.deleteByName (1)" />
-        <item itemvalue="Gradle.CreateCv.createResumeDP" />
-        <item itemvalue="Gradle.DeleteCv (1)" />
-        <item itemvalue="Gradle.CreateCv.createResume (1)" />
       </list>
     </recent_temporary>
   </component>
