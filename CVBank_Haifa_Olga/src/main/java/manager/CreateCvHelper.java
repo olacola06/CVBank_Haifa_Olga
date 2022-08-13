@@ -176,15 +176,14 @@ public class CreateCvHelper extends HelperBase {
         click(By.cssSelector("div[class=slider] div:nth-child(" + cvLookNum + ")"));
         click(By.cssSelector("div[class=header] button:first-of-type"));
 
-        pause(3000);
+        pause(2000);
         File file = new File("C:/Users/Olga/Downloads");
         Assert.assertTrue(file.exists());
 
         click(By.cssSelector("div[class=header] button:last-of-type"));
         click(By.xpath("//*[.='Publish ']"));
+        pause(1000);
         click(By.xpath("//a[.='Sign In']"));
-        new WebDriverWait(wd, 10).until(ExpectedConditions
-                .visibilityOf(wd.findElement(By.cssSelector("input#email"))));
 
     }
     public boolean cvPublished() {

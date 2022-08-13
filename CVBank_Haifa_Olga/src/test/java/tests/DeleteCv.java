@@ -1,6 +1,7 @@
 package tests;
 
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -16,8 +17,12 @@ public class DeleteCv extends TestBase {
 
     @Test
     public void deleteByName(){
-        String nameToDelete = "Pavel";
-        app.delCv().deleteCvByName(nameToDelete);
-
+        String nameToDelete = "Pasha";
+        Assert.assertTrue(app.delCv().deleteCvByName(nameToDelete));
+    }
+    @Test
+    public void deleteAllByName(){
+        String name = "Pavel";
+        app.delCv().deleteCvByName2(name);
     }
 }

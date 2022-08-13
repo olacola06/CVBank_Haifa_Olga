@@ -35,6 +35,8 @@ public class HelperBase {
 
     }
     public void loginUser(User user) {
+        new WebDriverWait(wd, 10).until(ExpectedConditions
+                .visibilityOf(wd.findElement(By.cssSelector("input#email"))));
         type((By.cssSelector("input#email")),user.getEmail());
         type((By.cssSelector("input#password")),user.getPassword());
         wd.findElement(By.cssSelector(" button[type='submit']")).click();

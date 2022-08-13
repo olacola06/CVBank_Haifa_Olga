@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.DeleteCv</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.DeleteCv</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; DeleteCv</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.444s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteAllByName</td>
+<td class="success">10.444s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:10:17 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[text()=' logout ']
+15:10:27 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //*[text()=' logout '] was found
+15:10:27 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //*[.='sign in']
+15:10:27 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //*[.='sign in'] was found
+15:10:27 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: input#email
+15:10:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: input#email was found
+15:10:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: input#password
+15:10:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: input#password was found
+15:10:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector:  button[type='submit']
+15:10:28 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector:  button[type='submit'] was found
+15:10:28 INFO  tests.TestBase - start to test method -&gt;&gt;deleteAllByName
+15:10:28 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+15:10:30 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+15:10:30 INFO  manager.HelperBase - Total amount of already created CV = -&gt;&gt;48
+15:10:30 INFO  manager.HelperBase - Cv with name -&gt;&gt;Pavelto be deleted
+15:10:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //button[. = 'delete']
+15:10:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //button[. = 'delete'] was found
+15:10:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //button[. = 'Delete ']
+15:10:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //button[. = 'Delete '] was found
+15:10:31 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.xpath: //cv-toast-message[@class='ng-star-inserted']
+15:10:31 INFO  manager.MyListener - element with locator-&gt;&gt; By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+15:10:31 INFO  manager.HelperBase - After delete action Message received:-&gt;&gt;Success
+CV was deleted
+15:10:36 INFO  manager.MyListener - Something went wrong-&gt;&gt;https://cv-bank-new.web.app/seeker/dashboard
+15:10:36 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aff4f84a3e9ccfcd80330beea1eef018
+15:10:36 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aff4f84a3e9ccfcd80330beea1eef018
+15:10:36 INFO  manager.MyListener - start search for element with locator-&gt;&gt;By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+15:10:36 INFO  manager.MyListener - element with locator-&gt;&gt; By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+15:10:39 INFO  manager.HelperBase - Total amount of CVs left = 47
+15:10:39 INFO  tests.TestBase - end to test method -&gt;&gt;deleteAllByName
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 13.08.2022 15:10:39</p>
+</div>
+</div>
+</body>
+</html>
