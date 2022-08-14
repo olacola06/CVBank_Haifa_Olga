@@ -1,18 +1,15 @@
 package manager;
 
 import models.Cv;
-import models.User;
+
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.reporters.Files;
 
-import javax.swing.*;
 import java.io.File;
-import java.util.HashMap;
+
 
 
 public class CreateCvHelper extends HelperBase {
@@ -177,8 +174,29 @@ public class CreateCvHelper extends HelperBase {
         click(By.cssSelector("div[class=header] button:first-of-type"));
 
         pause(2000);
-        File file = new File("C:/Users/Olga/Downloads");
-        Assert.assertTrue(file.exists());
+//        File directory = new File("C:/Users/Olga/Downloads");
+//        File[] listFiles = directory.listFiles();
+//        for(File file:listFiles){
+//            if(file.getName().contains("Pavel")){
+//
+//            }
+//        public static void waitForTheExcelFileToDownload(String fileName, int timeWait)
+//                throws IOException, InterruptedException {
+//            String downloadPath = getSystemDownloadPath();
+//            File dir = new File(downloadPath);
+//            File[] dirContents = dir.listFiles();
+//
+//            for (int i = 0; i < 3; i++) {
+//                if (dirContents[i].getName().equalsIgnoreCase(fileName)) {
+//                    break;
+//                }else {
+//                    Thread.sleep(timeWait);
+//                }
+//            }
+//        }
+
+
+        //Assert.assertTrue(file.exists());
 
         click(By.cssSelector("div[class=header] button:last-of-type"));
         click(By.xpath("//*[.='Publish ']"));

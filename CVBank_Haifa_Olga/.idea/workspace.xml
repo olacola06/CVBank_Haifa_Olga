@@ -5,25 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pdfbox.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220813T150437.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220813T150721.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220813T151013.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateCv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CreateCvHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1198.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1209.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1978.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-1994.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2172.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2181.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2189.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2197.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2206.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2223.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2231.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2314.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2671.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2679.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2688.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2696.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2705.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2713.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2722.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-289.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2907.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2949.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2963.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2971.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-2979.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-3243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-472.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-480.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-489.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-497.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-601.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-618.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-635.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-652.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-685.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-701.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-715.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-762.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-781.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +134,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Olga/SuperScheduler_Olga"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/SuperScheduler_Olga&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.DeleteCv">
     <configuration name="CreateCv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
