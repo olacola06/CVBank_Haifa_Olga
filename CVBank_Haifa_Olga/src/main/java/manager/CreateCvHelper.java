@@ -2,6 +2,7 @@ package manager;
 
 import models.Cv;
 
+import org.apache.fontbox.FontBoxFont;
 import org.openqa.selenium.*;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -168,42 +169,27 @@ public class CreateCvHelper extends HelperBase {
         return message.contains(startYear) && message.contains(endYear);
     }
 
-    public void previewAndPublish(int cvLookNum) {
+    public void previewAndPublish(int cvLookNum, String candidateName) {
         click(By.xpath("//*[.=' Preview ']"));
         click(By.cssSelector("div[class=slider] div:nth-child(" + cvLookNum + ")"));
         click(By.cssSelector("div[class=header] button:first-of-type"));
 
         pause(2000);
-//        File directory = new File("C:/Users/Olga/Downloads");
-//        File[] listFiles = directory.listFiles();
-//        for(File file:listFiles){
-//            if(file.getName().contains("Pavel")){
-//
-//            }
-//        public static void waitForTheExcelFileToDownload(String fileName, int timeWait)
-//                throws IOException, InterruptedException {
-//            String downloadPath = getSystemDownloadPath();
-//            File dir = new File(downloadPath);
-//            File[] dirContents = dir.listFiles();
-//
-//            for (int i = 0; i < 3; i++) {
-//                if (dirContents[i].getName().equalsIgnoreCase(fileName)) {
-//                    break;
-//                }else {
-//                    Thread.sleep(timeWait);
-//                }
-//            }
-//        }
+        File directory = new File("C:/Users/Olga/Downloads");
+        File[] listFiles = directory.listFiles();
+        for (File file : listFiles) {
+            if (file.getName().contains(candidateName)) {
+                logger.info("CV with candidate named: " + candidateName + " was saved");
+                Assert.assertTrue(file.exists());
+                break;
+            }
+        }
 
+            click(By.cssSelector("div[class=header] button:last-of-type"));
+            click(By.xpath("//*[.='Publish ']"));
+            click(By.xpath("//a[.='Sign In']"));
+}
 
-        //Assert.assertTrue(file.exists());
-
-        click(By.cssSelector("div[class=header] button:last-of-type"));
-        click(By.xpath("//*[.='Publish ']"));
-        pause(1000);
-        click(By.xpath("//a[.='Sign In']"));
-
-    }
     public boolean cvPublished() {
         WebElement el = new WebDriverWait(wd,10).until(ExpectedConditions
                 .visibilityOf(wd.findElement(By.xpath("//cv-toast-message[@class='ng-star-inserted']"))));
@@ -212,4 +198,5 @@ public class CreateCvHelper extends HelperBase {
         new WebDriverWait(wd,10).until(ExpectedConditions.invisibilityOf(el));
         return message.contains("Success") && message.contains("Your CV was saved");
     }
+
 }

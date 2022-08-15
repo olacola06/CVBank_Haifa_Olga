@@ -17,7 +17,7 @@ public class CreateCv extends TestBase{
     }
 
     User user = User.builder().email("office@prisma-eo.co.il").password("Bb12345%").build();
-        @Test(invocationCount = 3)
+        @Test(invocationCount = 2)
         public void createResume(){
             Cv cv = Cv.builder().name("Pavel").position("Manager").birthday("12/08/1973").country("Israel")
                     .city("haifa").phone("036485478").email("pavel@mail.ru")
@@ -30,7 +30,7 @@ public class CreateCv extends TestBase{
             app.getCv().fillExperienceForm(cv);
             Assert.assertTrue(app.getCv().assertExperience(cv.getStartYear(), cv.getEndYear()));
 
-            app.getCv().previewAndPublish(cvLookNum);
+            app.getCv().previewAndPublish(cvLookNum, cv.getName());
             app.getCv().pause(2000);
             app.getCv().loginUser(user);
 
@@ -45,7 +45,7 @@ public class CreateCv extends TestBase{
         app.getCv().fillExperienceForm(cv);
         Assert.assertTrue(app.getCv().assertExperience(cv.getStartYear(), cv.getEndYear()));
 
-        app.getCv().previewAndPublish(cvLookNum);
+        app.getCv().previewAndPublish(cvLookNum, cv.getName());
         app.getCv().pause(2000);
         app.getCv().loginUser(user);
 

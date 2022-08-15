@@ -1,0 +1,393 @@
+17:34:36 INFO  manager.ApplicationManager - All tests start in Chrome
+17:34:51 INFO  tests.TestBase - start to test method ->>createResumeDP
+17:34:51 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+17:34:51 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+17:34:53 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+17:34:55 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+17:34:55 INFO  manager.MyListener - start search for element with locator->>By.id: name
+17:34:55 INFO  manager.MyListener - element with locator->> By.id: name was found
+17:34:56 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:34:56 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:34:56 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+17:34:56 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+17:34:57 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+17:34:57 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+17:34:57 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div
+17:34:57 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div was found
+17:34:57 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+17:34:57 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Previous 20 years'] was found
+17:34:57 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+17:34:57 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+17:34:57 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1968 ']
+17:34:57 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' 1968 '] was found
+17:34:58 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' JAN ']
+17:34:58 INFO  manager.MyListener - element with locator->> By.xpath: //td[.=' JAN '] was found
+17:34:58 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 12 ']
+17:34:58 INFO  manager.MyListener - element with locator->> By.xpath: //div[.=' 12 '] was found
+17:34:58 INFO  manager.MyListener - start search for element with locator->>By.id: country
+17:34:58 INFO  manager.MyListener - element with locator->> By.id: country was found
+17:34:58 INFO  manager.MyListener - start search for element with locator->>By.id: city
+17:34:58 INFO  manager.MyListener - element with locator->> By.id: city was found
+17:34:59 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+17:34:59 INFO  manager.MyListener - element with locator->> By.id: phone was found
+17:34:59 INFO  manager.MyListener - start search for element with locator->>By.id: email
+17:34:59 INFO  manager.MyListener - element with locator->> By.id: email was found
+17:35:00 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
+17:35:00 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Save'] was found
+17:35:00 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#header div[class=title] h2
+17:35:00 INFO  manager.MyListener - element with locator->> By.cssSelector: section#header div[class=title] h2 was found
+17:35:00 INFO  manager.MyListener - start search for element with locator->>By.id: experience
+17:35:00 INFO  manager.MyListener - element with locator->> By.id: experience was found
+17:35:00 INFO  manager.MyListener - start search for element with locator->>By.id: startDate
+17:35:00 INFO  manager.MyListener - element with locator->> By.id: startDate was found
+17:35:03 INFO  manager.MyListener - start search for element with locator->>By.id: endDate
+17:35:03 INFO  manager.MyListener - element with locator->> By.id: endDate was found
+17:35:03 INFO  manager.MyListener - start search for element with locator->>By.id: companyName
+17:35:03 INFO  manager.MyListener - element with locator->> By.id: companyName was found
+17:35:03 INFO  manager.MyListener - start search for element with locator->>By.id: companyLocation
+17:35:04 INFO  manager.MyListener - element with locator->> By.id: companyLocation was found
+17:35:04 INFO  manager.MyListener - start search for element with locator->>By.id: url
+17:35:04 INFO  manager.MyListener - element with locator->> By.id: url was found
+17:35:04 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:35:04 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:35:05 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[type='submit']
+17:35:05 INFO  manager.MyListener - element with locator->> By.cssSelector: button[type='submit'] was found
+17:35:05 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#experience ul
+17:35:05 INFO  manager.MyListener - element with locator->> By.cssSelector: section#experience ul was found
+17:35:05 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' Preview ']
+17:35:05 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' Preview '] was found
+17:35:05 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=slider] div:nth-child(2)
+17:35:05 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=slider] div:nth-child(2) was found
+17:35:06 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:first-of-type
+17:35:06 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:first-of-type was found
+17:35:08 INFO  manager.HelperBase - CV with candidate named: Pasha was saved
+17:35:08 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:last-of-type
+17:35:08 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:last-of-type was found
+17:35:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='Publish ']
+17:35:08 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='Publish '] was found
+17:35:09 INFO  manager.MyListener - start search for element with locator->>By.xpath: //a[.='Sign In']
+17:35:09 INFO  manager.MyListener - element with locator->> By.xpath: //a[.='Sign In'] was found
+17:35:11 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:11 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:12 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:12 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:12 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:35:12 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+17:35:13 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:35:13 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+17:35:13 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+17:35:14 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+17:35:19 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+17:35:19 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:35:19 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:35:19 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:35:19 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+17:35:19 INFO  tests.TestBase - end to test method ->>createResumeDP
+17:35:19 INFO  tests.TestBase - start to test method ->>createResumeDP
+17:35:19 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+17:35:19 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+17:35:20 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+17:35:20 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+17:35:20 INFO  manager.MyListener - start search for element with locator->>By.id: name
+17:35:20 INFO  manager.MyListener - element with locator->> By.id: name was found
+17:35:20 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:35:20 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:35:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+17:35:21 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+17:35:21 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+17:35:21 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+17:35:21 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div
+17:35:21 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div was found
+17:35:21 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1983 ']
+17:35:21 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' 1983 '] was found
+17:35:22 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' OCT ']
+17:35:22 INFO  manager.MyListener - element with locator->> By.xpath: //td[.=' OCT '] was found
+17:35:22 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 6 ']
+17:35:22 INFO  manager.MyListener - element with locator->> By.xpath: //div[.=' 6 '] was found
+17:35:22 INFO  manager.MyListener - start search for element with locator->>By.id: country
+17:35:22 INFO  manager.MyListener - element with locator->> By.id: country was found
+17:35:22 INFO  manager.MyListener - start search for element with locator->>By.id: city
+17:35:23 INFO  manager.MyListener - element with locator->> By.id: city was found
+17:35:23 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+17:35:23 INFO  manager.MyListener - element with locator->> By.id: phone was found
+17:35:24 INFO  manager.MyListener - start search for element with locator->>By.id: email
+17:35:24 INFO  manager.MyListener - element with locator->> By.id: email was found
+17:35:24 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
+17:35:24 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Save'] was found
+17:35:24 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#header div[class=title] h2
+17:35:24 INFO  manager.MyListener - element with locator->> By.cssSelector: section#header div[class=title] h2 was found
+17:35:24 INFO  manager.MyListener - start search for element with locator->>By.id: experience
+17:35:24 INFO  manager.MyListener - element with locator->> By.id: experience was found
+17:35:25 INFO  manager.MyListener - start search for element with locator->>By.id: startDate
+17:35:25 INFO  manager.MyListener - element with locator->> By.id: startDate was found
+17:35:27 INFO  manager.MyListener - start search for element with locator->>By.id: endDate
+17:35:27 INFO  manager.MyListener - element with locator->> By.id: endDate was found
+17:35:27 INFO  manager.MyListener - start search for element with locator->>By.id: companyName
+17:35:27 INFO  manager.MyListener - element with locator->> By.id: companyName was found
+17:35:28 INFO  manager.MyListener - start search for element with locator->>By.id: companyLocation
+17:35:28 INFO  manager.MyListener - element with locator->> By.id: companyLocation was found
+17:35:28 INFO  manager.MyListener - start search for element with locator->>By.id: url
+17:35:28 INFO  manager.MyListener - element with locator->> By.id: url was found
+17:35:29 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:35:29 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:35:30 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[type='submit']
+17:35:30 INFO  manager.MyListener - element with locator->> By.cssSelector: button[type='submit'] was found
+17:35:30 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#experience ul
+17:35:30 INFO  manager.MyListener - element with locator->> By.cssSelector: section#experience ul was found
+17:35:30 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' Preview ']
+17:35:30 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' Preview '] was found
+17:35:30 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=slider] div:nth-child(2)
+17:35:30 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=slider] div:nth-child(2) was found
+17:35:30 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:first-of-type
+17:35:30 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:first-of-type was found
+17:35:32 INFO  manager.HelperBase - CV with candidate named: Ivan was saved
+17:35:32 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:last-of-type
+17:35:33 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:last-of-type was found
+17:35:33 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='Publish ']
+17:35:33 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='Publish '] was found
+17:35:33 INFO  manager.MyListener - start search for element with locator->>By.xpath: //a[.='Sign In']
+17:35:33 INFO  manager.MyListener - element with locator->> By.xpath: //a[.='Sign In'] was found
+17:35:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:36 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:36 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:36 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:35:36 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+17:35:37 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:35:37 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+17:35:37 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+17:35:38 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+17:35:42 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+17:35:42 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:35:42 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:35:42 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:35:42 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+17:35:43 INFO  tests.TestBase - end to test method ->>createResumeDP
+17:35:43 INFO  tests.TestBase - start to test method ->>createResumeDP
+17:35:43 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+17:35:43 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+17:35:43 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+17:35:43 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+17:35:43 INFO  manager.MyListener - start search for element with locator->>By.id: name
+17:35:43 INFO  manager.MyListener - element with locator->> By.id: name was found
+17:35:44 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:35:44 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:35:44 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+17:35:44 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+17:35:44 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+17:35:44 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div
+17:35:45 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+17:35:45 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Previous 20 years'] was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+17:35:45 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+17:35:45 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Previous 20 years'] was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+17:35:45 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+17:35:45 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1955 ']
+17:35:46 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' 1955 '] was found
+17:35:46 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' JUL ']
+17:35:46 INFO  manager.MyListener - element with locator->> By.xpath: //td[.=' JUL '] was found
+17:35:46 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 28 ']
+17:35:46 INFO  manager.MyListener - element with locator->> By.xpath: //div[.=' 28 '] was found
+17:35:46 INFO  manager.MyListener - start search for element with locator->>By.id: country
+17:35:46 INFO  manager.MyListener - element with locator->> By.id: country was found
+17:35:46 INFO  manager.MyListener - start search for element with locator->>By.id: city
+17:35:46 INFO  manager.MyListener - element with locator->> By.id: city was found
+17:35:47 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+17:35:47 INFO  manager.MyListener - element with locator->> By.id: phone was found
+17:35:47 INFO  manager.MyListener - start search for element with locator->>By.id: email
+17:35:47 INFO  manager.MyListener - element with locator->> By.id: email was found
+17:35:48 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
+17:35:48 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Save'] was found
+17:35:48 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#header div[class=title] h2
+17:35:48 INFO  manager.MyListener - element with locator->> By.cssSelector: section#header div[class=title] h2 was found
+17:35:48 INFO  manager.MyListener - start search for element with locator->>By.id: experience
+17:35:48 INFO  manager.MyListener - element with locator->> By.id: experience was found
+17:35:48 INFO  manager.MyListener - start search for element with locator->>By.id: startDate
+17:35:48 INFO  manager.MyListener - element with locator->> By.id: startDate was found
+17:35:51 INFO  manager.MyListener - start search for element with locator->>By.id: endDate
+17:35:51 INFO  manager.MyListener - element with locator->> By.id: endDate was found
+17:35:51 INFO  manager.MyListener - start search for element with locator->>By.id: companyName
+17:35:51 INFO  manager.MyListener - element with locator->> By.id: companyName was found
+17:35:51 INFO  manager.MyListener - start search for element with locator->>By.id: companyLocation
+17:35:51 INFO  manager.MyListener - element with locator->> By.id: companyLocation was found
+17:35:52 INFO  manager.MyListener - start search for element with locator->>By.id: url
+17:35:52 INFO  manager.MyListener - element with locator->> By.id: url was found
+17:35:52 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:35:52 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:35:52 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[type='submit']
+17:35:52 INFO  manager.MyListener - element with locator->> By.cssSelector: button[type='submit'] was found
+17:35:53 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#experience ul
+17:35:53 INFO  manager.MyListener - element with locator->> By.cssSelector: section#experience ul was found
+17:35:53 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' Preview ']
+17:35:53 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' Preview '] was found
+17:35:53 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=slider] div:nth-child(2)
+17:35:53 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=slider] div:nth-child(2) was found
+17:35:53 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:first-of-type
+17:35:53 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:first-of-type was found
+17:35:55 INFO  manager.HelperBase - CV with candidate named: John was saved
+17:35:55 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:last-of-type
+17:35:55 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:last-of-type was found
+17:35:55 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='Publish ']
+17:35:55 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='Publish '] was found
+17:35:56 INFO  manager.MyListener - start search for element with locator->>By.xpath: //a[.='Sign In']
+17:35:56 INFO  manager.MyListener - element with locator->> By.xpath: //a[.='Sign In'] was found
+17:35:58 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:58 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:58 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:35:58 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:35:59 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:35:59 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+17:35:59 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:35:59 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+17:35:59 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+17:36:00 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+17:36:05 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+17:36:05 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:36:05 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:36:05 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:36:05 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+17:36:05 INFO  tests.TestBase - end to test method ->>createResumeDP
+17:36:05 INFO  tests.TestBase - start to test method ->>createResumeDP
+17:36:05 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='create CV']
+17:36:05 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='create CV'] was found
+17:36:06 INFO  manager.MyListener - start search for element with locator->>By.xpath: (//div[@class='cover'])[1]
+17:36:06 INFO  manager.MyListener - element with locator->> By.xpath: (//div[@class='cover'])[1] was found
+17:36:06 INFO  manager.MyListener - start search for element with locator->>By.id: name
+17:36:06 INFO  manager.MyListener - element with locator->> By.id: name was found
+17:36:06 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:36:06 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Open calendar']
+17:36:07 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Open calendar'] was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[aria-label='Choose month and year']
+17:36:07 INFO  manager.MyListener - element with locator->> By.cssSelector: button[aria-label='Choose month and year'] was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div
+17:36:07 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child div was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[@aria-label='Previous 20 years']
+17:36:07 INFO  manager.MyListener - element with locator->> By.xpath: //*[@aria-label='Previous 20 years'] was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: tbody[role='grid'] tr:first-child td:first-child
+17:36:07 INFO  manager.MyListener - element with locator->> By.cssSelector: tbody[role='grid'] tr:first-child td:first-child was found
+17:36:07 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' 1978 ']
+17:36:07 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' 1978 '] was found
+17:36:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //td[.=' DEC ']
+17:36:08 INFO  manager.MyListener - element with locator->> By.xpath: //td[.=' DEC '] was found
+17:36:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //div[.=' 3 ']
+17:36:08 INFO  manager.MyListener - element with locator->> By.xpath: //div[.=' 3 '] was found
+17:36:08 INFO  manager.MyListener - start search for element with locator->>By.id: country
+17:36:08 INFO  manager.MyListener - element with locator->> By.id: country was found
+17:36:08 INFO  manager.MyListener - start search for element with locator->>By.id: city
+17:36:08 INFO  manager.MyListener - element with locator->> By.id: city was found
+17:36:09 INFO  manager.MyListener - start search for element with locator->>By.id: phone
+17:36:09 INFO  manager.MyListener - element with locator->> By.id: phone was found
+17:36:09 INFO  manager.MyListener - start search for element with locator->>By.id: email
+17:36:09 INFO  manager.MyListener - element with locator->> By.id: email was found
+17:36:09 INFO  manager.MyListener - start search for element with locator->>By.xpath: //span[.='Save']
+17:36:09 INFO  manager.MyListener - element with locator->> By.xpath: //span[.='Save'] was found
+17:36:10 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#header div[class=title] h2
+17:36:10 INFO  manager.MyListener - element with locator->> By.cssSelector: section#header div[class=title] h2 was found
+17:36:10 INFO  manager.MyListener - start search for element with locator->>By.id: experience
+17:36:10 INFO  manager.MyListener - element with locator->> By.id: experience was found
+17:36:10 INFO  manager.MyListener - start search for element with locator->>By.id: startDate
+17:36:10 INFO  manager.MyListener - element with locator->> By.id: startDate was found
+17:36:12 INFO  manager.MyListener - start search for element with locator->>By.id: endDate
+17:36:12 INFO  manager.MyListener - element with locator->> By.id: endDate was found
+17:36:13 INFO  manager.MyListener - start search for element with locator->>By.id: companyName
+17:36:13 INFO  manager.MyListener - element with locator->> By.id: companyName was found
+17:36:13 INFO  manager.MyListener - start search for element with locator->>By.id: companyLocation
+17:36:13 INFO  manager.MyListener - element with locator->> By.id: companyLocation was found
+17:36:13 INFO  manager.MyListener - start search for element with locator->>By.id: url
+17:36:13 INFO  manager.MyListener - element with locator->> By.id: url was found
+17:36:14 INFO  manager.MyListener - start search for element with locator->>By.id: position
+17:36:14 INFO  manager.MyListener - element with locator->> By.id: position was found
+17:36:14 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: button[type='submit']
+17:36:14 INFO  manager.MyListener - element with locator->> By.cssSelector: button[type='submit'] was found
+17:36:14 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: section#experience ul
+17:36:14 INFO  manager.MyListener - element with locator->> By.cssSelector: section#experience ul was found
+17:36:14 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.=' Preview ']
+17:36:14 INFO  manager.MyListener - element with locator->> By.xpath: //*[.=' Preview '] was found
+17:36:15 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=slider] div:nth-child(2)
+17:36:15 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=slider] div:nth-child(2) was found
+17:36:15 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:first-of-type
+17:36:15 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:first-of-type was found
+17:36:17 INFO  manager.HelperBase - CV with candidate named: Haim was saved
+17:36:17 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: div[class=header] button:last-of-type
+17:36:17 INFO  manager.MyListener - element with locator->> By.cssSelector: div[class=header] button:last-of-type was found
+17:36:17 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='Publish ']
+17:36:17 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='Publish '] was found
+17:36:17 INFO  manager.MyListener - start search for element with locator->>By.xpath: //a[.='Sign In']
+17:36:17 INFO  manager.MyListener - element with locator->> By.xpath: //a[.='Sign In'] was found
+17:36:19 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:36:19 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:36:20 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+17:36:20 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+17:36:20 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+17:36:20 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+17:36:20 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+17:36:20 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+17:36:20 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+17:36:21 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+17:36:26 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+17:36:26 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:36:26 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e091997bc3bf6db59da8e51c983b34b
+17:36:26 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+17:36:26 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+17:36:26 INFO  tests.TestBase - end to test method ->>createResumeDP

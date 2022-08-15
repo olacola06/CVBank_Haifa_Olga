@@ -12,18 +12,18 @@ public class DeleteCv extends TestBase {
     public void preCondition(){
         if(!app.getCv().logoutBtnPresent()){
             User user = User.builder().email("office@prisma-eo.co.il").password("Bb12345%").build();
-            app.delCv().signIn(user);
+            app.delCv().loginUser(user);
        }
     }
 
     @Test
     public void deleteByName(){
-        String nameToDelete = "John";
+        String nameToDelete = "Pavel";
         Assert.assertTrue(app.delCv().deleteCvByName(nameToDelete));
     }
     @Test
     public void deleteAllByName(){
-        String name = "Haim";
+        String name = "Pasha";
         app.delCv().deleteCvByName2(name);
         Assert.assertTrue(app.delCv().allDeleted(name));
     }
