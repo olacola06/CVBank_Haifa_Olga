@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.DeleteCv" tests="2" skipped="2" failures="0" errors="0" timestamp="2022-08-16T06:55:16" hostname="DESKTOP-KF54E9L" time="0.005">
+  <properties/>
+  <testcase name="deleteAllByName" classname="tests.DeleteCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="deleteByName" classname="tests.DeleteCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

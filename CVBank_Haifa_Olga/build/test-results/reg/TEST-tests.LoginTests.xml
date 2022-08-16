@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2022-08-16T06:55:16" hostname="DESKTOP-KF54E9L" time="0.011">
+  <properties/>
+  <testcase name="loginPos" classname="tests.LoginTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginWrongEmail" classname="tests.LoginTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginWrongPassword" classname="tests.LoginTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

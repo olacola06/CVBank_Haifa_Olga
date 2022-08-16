@@ -1,103 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.DeleteCv" tests="3" skipped="2" failures="1" errors="0" timestamp="2022-08-15T14:53:24" hostname="DESKTOP-KF54E9L" time="20.387">
+<testsuite name="tests.DeleteCv" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-16T06:58:18" hostname="DESKTOP-KF54E9L" time="50.018">
   <properties/>
-  <testcase name="preCondition" classname="tests.DeleteCv" time="20.382">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[.='sign in']&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cc850a129b8859386fae47a7bd46e45f&#10;*** Element info: {Using=xpath, value=//*[.='sign in']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[.='sign in']&quot;}
+  <testcase name="deleteAllByName" classname="tests.DeleteCv" time="43.629"/>
+  <testcase name="deleteByName" classname="tests.DeleteCv" time="6.366"/>
+  <system-out><![CDATA[09:58:03 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
+09:58:13 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
+09:58:13 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
+09:58:13 INFO  manager.MyListener - element with locator->> By.xpath: //*[.='sign in'] was found
+09:58:13 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#email
+09:58:17 INFO  manager.MyListener - element with locator->> By.cssSelector: input#email was found
+09:58:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: input#password
+09:58:18 INFO  manager.MyListener - element with locator->> By.cssSelector: input#password was found
+09:58:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector:  button[type='submit']
+09:58:18 INFO  manager.MyListener - element with locator->> By.cssSelector:  button[type='submit'] was found
+09:58:18 INFO  tests.TestBase - start to test method ->>deleteAllByName
+09:58:18 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+09:58:21 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+09:58:21 INFO  manager.HelperBase - Total amount of already created CV = ->>24
+09:58:22 INFO  manager.HelperBase - Cv with name ->>Pasha to be deleted
+09:58:23 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+09:58:23 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+09:58:24 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+09:58:24 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'Delete '] was found
+09:58:24 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+09:58:25 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+09:58:25 INFO  manager.HelperBase - After delete action Message received:->>Success
+CV was deleted
+09:58:29 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+09:58:29 INFO  manager.MyListener - stale element reference: element is not attached to the page document
   (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cc850a129b8859386fae47a7bd46e45f
-*** Element info: {Using=xpath, value=//*[.='sign in']}
-	at manager.MyListener.onException(MyListener.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy13.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy14.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at manager.HelperBase.click(HelperBase.java:27)
-	at manager.HelperBase.signIn(HelperBase.java:61)
-	at tests.DeleteCv.preCondition(DeleteCv.java:15)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
-  <testcase name="deleteAllByName" classname="tests.DeleteCv" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="deleteByName" classname="tests.DeleteCv" time="0.0">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[17:53:24 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[text()=' logout ']
-17:53:34 INFO  manager.MyListener - element with locator->> By.xpath: //*[text()=' logout '] was found
-17:53:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //*[.='sign in']
-17:53:44 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/
-17:53:44 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='sign in']"}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:29 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cc850a129b8859386fae47a7bd46e45f
-*** Element info: {Using=xpath, value=//*[.='sign in']}
-17:53:44 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='sign in']"}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:29 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+09:58:29 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+09:58:33 INFO  manager.HelperBase - Cv with name ->>Pasha to be deleted
+09:58:33 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+09:58:33 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+09:58:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+09:58:34 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'Delete '] was found
+09:58:34 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+09:58:34 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+09:58:34 INFO  manager.HelperBase - After delete action Message received:->>Success
+CV was deleted
+09:58:39 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+09:58:39 INFO  manager.MyListener - stale element reference: element is not attached to the page document
   (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cc850a129b8859386fae47a7bd46e45f
-*** Element info: {Using=xpath, value=//*[.='sign in']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:39 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:39 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+09:58:39 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+09:58:43 INFO  manager.HelperBase - Cv with name ->>Pasha to be deleted
+09:58:43 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+09:58:43 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+09:58:43 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+09:58:43 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'Delete '] was found
+09:58:44 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+09:58:44 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+09:58:44 INFO  manager.HelperBase - After delete action Message received:->>Success
+CV was deleted
+09:58:48 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+09:58:48 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:48 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:58:49 INFO  manager.MyListener - start search for element with locator->>By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row
+09:58:49 INFO  manager.MyListener - element with locator->> By.cssSelector: ul[class='ng-star-inserted'] li cv-seeker-cv-row was found
+09:58:52 INFO  manager.HelperBase - Total amount of CVs left = 21
+09:58:52 INFO  manager.MyListener - start search for element with locator->>By.xpath: //h2[.='Pasha']
+09:59:02 INFO  manager.MyListener - element with locator->> By.xpath: //h2[.='Pasha'] was found
+09:59:02 INFO  manager.HelperBase - All CVs with name: Pasha were deleted
+09:59:02 INFO  tests.TestBase - end to test method ->>deleteAllByName
+09:59:02 INFO  tests.TestBase - start to test method ->>deleteByName
+09:59:02 INFO  manager.MyListener - start search for element with locator->>By.xpath: //h2[.='Pavel']
+09:59:02 INFO  manager.MyListener - element with locator->> By.xpath: //h2[.='Pavel'] was found
+09:59:02 INFO  manager.HelperBase - Total amount CVs with name: Pavel = ->>6
+09:59:03 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'delete']
+09:59:03 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'delete'] was found
+09:59:03 INFO  manager.MyListener - start search for element with locator->>By.xpath: //button[. = 'Delete ']
+09:59:03 INFO  manager.MyListener - element with locator->> By.xpath: //button[. = 'Delete '] was found
+09:59:03 INFO  manager.MyListener - start search for element with locator->>By.xpath: //cv-toast-message[@class='ng-star-inserted']
+09:59:04 INFO  manager.MyListener - element with locator->> By.xpath: //cv-toast-message[@class='ng-star-inserted'] was found
+09:59:04 INFO  manager.HelperBase - After delete action Message received:->>Success
+CV was deleted
+09:59:08 INFO  manager.MyListener - Something went wrong->>https://cv-bank-new.web.app/seeker/dashboard
+09:59:08 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:59:08 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a264d9100993c3d3ecbbd85fd1a7d127
+09:59:08 INFO  manager.MyListener - start search for element with locator->>By.xpath: //h2[.='Pavel']
+09:59:08 INFO  manager.MyListener - element with locator->> By.xpath: //h2[.='Pavel'] was found
+09:59:08 INFO  manager.HelperBase - Total amount left of CVs with name: Pavel = ->>5
+09:59:08 INFO  tests.TestBase - end to test method ->>deleteByName
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

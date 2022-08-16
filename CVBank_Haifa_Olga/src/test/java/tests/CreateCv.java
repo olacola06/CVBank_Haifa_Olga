@@ -17,7 +17,7 @@ public class CreateCv extends TestBase{
     }
 
     User user = User.builder().email("office@prisma-eo.co.il").password("Bb12345%").build();
-        @Test(invocationCount = 2)
+        @Test(groups ={"first"}, invocationCount = 2)
         public void createResume(){
             Cv cv = Cv.builder().name("Pavel").position("Manager").birthday("12/08/1973").country("Israel")
                     .city("haifa").phone("036485478").email("pavel@mail.ru")

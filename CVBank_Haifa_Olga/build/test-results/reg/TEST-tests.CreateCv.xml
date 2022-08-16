@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.CreateCv" tests="6" skipped="6" failures="0" errors="0" timestamp="2022-08-16T06:55:16" hostname="DESKTOP-KF54E9L" time="0.068">
+  <properties/>
+  <testcase name="createResume" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createResume" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createResumeDP" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createResumeDP" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createResumeDP" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createResumeDP" classname="tests.CreateCv" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

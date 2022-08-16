@@ -1,0 +1,16 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Reg"> -
+        <groups>
+            <run>
+                <include name = "positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.RegistrationTests"/>
+            <class name="tests.LoginTests"/>
+            <class name="tests.CreateCv"/>
+            <class name="tests.DeleteCv"/>
+
+        </classes>
+    </test>
+</suite>

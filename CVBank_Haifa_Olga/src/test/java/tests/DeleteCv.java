@@ -12,7 +12,8 @@ public class DeleteCv extends TestBase {
     public void preCondition(){
         if(!app.getCv().logoutBtnPresent()){
             User user = User.builder().email("office@prisma-eo.co.il").password("Bb12345%").build();
-            app.delCv().loginUser(user);
+            //app.delCv().loginOneStep(user);// to use while run Task reg - smoke
+            app.delCv().signIn(user);
        }
     }
 
@@ -21,7 +22,7 @@ public class DeleteCv extends TestBase {
         String nameToDelete = "Pavel";
         Assert.assertTrue(app.delCv().deleteCvByName(nameToDelete));
     }
-    @Test
+    @Test(groups = {"first"})
     public void deleteAllByName(){
         String name = "Pasha";
         app.delCv().deleteCvByName2(name);

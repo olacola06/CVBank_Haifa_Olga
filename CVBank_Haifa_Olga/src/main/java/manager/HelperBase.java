@@ -42,6 +42,15 @@ public class HelperBase {
         wd.findElement(By.cssSelector(" button[type='submit']")).click();
     }
 
+    public void loginOneStep(User user) {
+        wd.findElement(By.xpath("//*[.='sign in ']"));
+        new WebDriverWait(wd, 10).until(ExpectedConditions.visibilityOf(
+                wd.findElement(By.cssSelector("input#email"))));
+        type((By.cssSelector("input#email")),user.getEmail());
+        type((By.cssSelector("input#password")),user.getPassword());
+        wd.findElement(By.cssSelector(" button[type='submit']")).click();
+    }
+
     public void pause(int milles) {
         try {
             Thread.sleep(milles);
