@@ -6,50 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1d3636a-6d4b-4b41-950f-3b39a80133b6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220815T173436.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220815T174515.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220815T175057.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/DeleteCvHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteCv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateCv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DeleteCv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.LoginTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.RegistrationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.CreateCv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DeleteCv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.LoginTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.RegistrationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/DeleteCvHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteCv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-298.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-339.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-360.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-425.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-447.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-770.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot-784.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +56,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/GitHub/QA_12_IlCarro&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Olga/GitHub/QA_12_API_Olga"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.DeleteCv (1)">
     <configuration name="CreateCv.createResume (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
